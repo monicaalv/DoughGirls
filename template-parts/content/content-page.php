@@ -19,7 +19,7 @@
         <?php twenty_twenty_one_post_thumbnail(); ?>
     </header><!-- .entry-header -->
     <?php elseif ( has_post_thumbnail() ) : ?>
-    <header class="entry-header alignwide">
+    <header class="entry-header overskrift">
         <?php twenty_twenty_one_post_thumbnail(); ?>
     </header><!-- .entry-header -->
     <?php endif; ?>
