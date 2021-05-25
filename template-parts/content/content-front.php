@@ -12,7 +12,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
+    Min særlige forside
     <?php if ( ! is_front_page() ) : ?>
     <header class="entry-header overskrift">
         <?php get_template_part( 'template-parts/header/entry-header' ); ?>
