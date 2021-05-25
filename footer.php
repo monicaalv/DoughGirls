@@ -25,8 +25,8 @@ if ( onepress_is_wc_active() ) {
 
 if ( ! $hide_footer ) {
 	?>
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<?php
+<footer id="colophon" class="site-footer" role="contentinfo">
+    <?php
 		/**
 		 * @since 2.0.0
 		 * @see onepress_footer_widgets
@@ -37,27 +37,25 @@ if ( ! $hide_footer ) {
 
 		?>
 
-		<div class="site-info">
-			<div class="container">
-				<?php if ( $onepress_btt_disable != '1' ) : ?>
-					<div class="btt">
-						<a class="back-to-top" href="#page" title="<?php echo esc_attr__( 'Back To Top', 'onepress' ); ?>"><i class="fa fa-angle-double-up wow flash" data-wow-duration="2s"></i></a>
-					</div>
-				<?php endif; ?>
-				<?php
+    <div class="site-info">
+        <div class="container">
+            <?php if ( $onepress_btt_disable != '1' ) : ?>
+            <p>Copyright by Dough Girls</p>
+            <?php endif; ?>
+            <?php
 				/**
 				 * hooked onepress_footer_site_info
 				 *
 				 * @see onepress_footer_site_info
 				 */
-				do_action( 'onepress_footer_site_info' );
-				?>
-			</div>
-		</div>
-		<!-- .site-info -->
 
-	</footer><!-- #colophon -->
-	<?php
+				?>
+        </div>
+    </div>
+    <!-- .site-info -->
+
+</footer><!-- #colophon -->
+<?php
 }
 /**
  * Hooked: onepress_site_footer
@@ -73,4 +71,5 @@ do_action( 'onepress_site_end' );
 <?php wp_footer(); ?>
 
 </body>
+
 </html>
