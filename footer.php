@@ -40,7 +40,7 @@ if ( ! $hide_footer ) {
     <div class="site-info">
         <div class="container">
             <?php if ( $onepress_btt_disable != '1' ) : ?>
-            <p>Copyright by Dough Girls</p>
+            <p>KEA Gruppe 13, eksamensprosjekt sommer 2021</p>
             <?php endif; ?>
             <?php
 				/**
