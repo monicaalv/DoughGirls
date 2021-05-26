@@ -43,7 +43,10 @@ do_action( 'onepress_page_before_content' );
 
 
 
-                const dbUrl = "http://monicaamundsen.com/kea/10_eksamen/doughgirls/wp-json/wp/v2/doughnut";
+                const dbUrl = "http://monicaamundsen.com/kea/10_eksamen/doughgirls/wp-json/wp/v2/doughnuts?per_page=100";
+
+
+
 
                 async function getJson() {
                     const data = await fetch(dbUrl);
@@ -52,31 +55,27 @@ do_action( 'onepress_page_before_content' );
                     /*visDoughnuts();*/
                 }
 
-                function visDoughnuts() {
-                    console.log(doughnuts);
-                    doughnuts.forEach(doughnut => {
-                        const klon = skabelon.cloneNode(true).content;
+                /* function visDoughnuts() {
+                     console.log(doughnuts);
+                     doughnuts.forEach(doughnut => {
+                         const klon = skabelon.cloneNode(true).content;
 
-                        klon.querySelector("h2").textContent = doughnut.title.rendered;
-                        klon.querySelector("img").src = doughnut.billede.guid;
-                        klon.querySelector(".pris").textContent = doughnut.pris;
-                        klon.querySelector(".beskrivelse").textContent = doughnut.beskrivelse;
+                         klon.querySelector("h2").textContent = doughnut.title.rendered;
+                         klon.querySelector("img").src = doughnut.billede.guid;
+                         klon.querySelector(".pris").textContent = doughnut.pris;
+                         klon.querySelector(".beskrivelse").textContent = doughnut.beskrivelse;
 
-                        liste.appendChild(klon);
+                         liste.appendChild(klon);
 
 
 
-                    })
-                }
+                     })
+                 }*/
                 getJson();
 
             </script>
 
         </div><!-- #primary -->
-
-        <?php if ( $layout != 'no-sidebar' ) { ?>
-        <?php get_sidebar(); ?>
-        <?php } ?>
 
     </div>
     <!--#content-inside -->
