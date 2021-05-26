@@ -18,7 +18,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <?php wp_head(); ?>
-    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css"> <!--for at style.css skal virke-->
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css">
+    <!--for at style.css skal virke-->
 </head>
 
 <body <?php body_class(); ?>>
@@ -29,7 +30,7 @@ if ( function_exists( 'wp_body_open' ) ) {
 ?>
     <?php do_action( 'onepress_before_site_start' ); ?>
     <div id="page" class="hfeed site">
-        Custom header
+
         <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'onepress' ); ?></a>
         <?php
 	/**

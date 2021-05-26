@@ -8,6 +8,8 @@ Description: Stylish Child Theme Based on One Press
 
 
 */
+/*///----------Generelt---------///*/
+
 
 .page-header {
     padding: 30px 0px;
@@ -17,3 +19,23 @@ Description: Stylish Child Theme Based on One Press
     position: relative;
     display: none;
 }
+
+/*//baggrundsfarve//*/
+.blog .site-content {
+    background-color: #fcf8f2;
+}
+
+/*//shadow//*/
+.site-header {
+    background-color: #fcf8f2;
+    box-shadow: none;
+}
+
+/*//strej//*/
+.site-content {
+    border-top: none;
+    margin-top: -1px;
+}
+
+
+/*///----------Generelt slut---------///*/
