@@ -37,102 +37,110 @@ do_action( 'onepress_page_before_content' );
                     </article>
                 </template>
 
-                <section id="doughnutcontainer"></section>
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+                        <!-- ved ikke hvad dette er-->
 
-            </main><!-- #main -->
-        </div><!-- #primary -->
-        <script>
-            let doughnuts;
-            let categories;
-            let filterDoughnuts = "alle";
+                        <section id="primary" class="content-area"></section>
+                        <nav id="filtrering"><button data-doughnut="alle" class="filter valgt">Alle</button></nav>
 
+                        <section id="doughnutcontainer"></section>
 
-
-            const dbUrl = "http://monicaamundsen.com/kea/10_eksamen/doughgirls/wp-json/wp/v2/doughnut";
-
-            const catUrl = "http://monicaamundsen.com/kea/10_eksamen/doughgirls/wp-json/wp/v2/categories"
-
-
-
-
-            async function getJson() {
-                const data = await fetch(dbUrl);
-                const catdata = await fetch(catUrl);
-                doughnuts = await data.json();
-                categories = await catdata.json();
-
-                console.log(doughnuts);
-
-                visDoughnuts();
-                opretKnapper();
-            }
-
-            function opretKnapper() {
-                catergories.forEach(cat => {
-                    document.querySelector("#filtrering").innerHTML += `<button class="filter" data-podcast="${cat.id}">${cat.name}</button>`
-                })
-
-                addEventListenerToButtons();
-            }
-
-            function addEventListenerToButtons() {
-                document.querySelectorAll("#filtrering button").forEach(elm => {
-                    elm.addEventListener("click", filtrering);
-                })
-
-
-            }
-
-            function filtrering() {
-
-                document.querySelector(".valgt").classList.remove("valgt");
-
-                this.classList.add("valgt");
-
-                filterPodcast = this.dataset.doughnuts;
-                console.log(filterDoughnuts);
-
-                visDougnuts();
+                    </main><!-- #main -->
+                </div><!-- #primary -->
+                <script>
+                    let doughnuts;
+                    let categories;
+                    let filterDoughnuts = "alle";
 
 
 
-            }
+                    const dbUrl = "http://monicaamundsen.com/kea/10_eksamen/doughgirls/wp-json/wp/v2/doughnut";
+
+                    const catUrl = "http://monicaamundsen.com/kea/10_eksamen/doughgirls/wp-json/wp/v2/categories"
 
 
-            function visDoughnuts() {
-                let temp = document.querySelector("template");
-                let container = document.querySelector("#doughnutcontainer")
-                container.innerHTML = "";
-                console.log(doughnuts);
 
-                doughnuts.forEach(doughnut => {
-                    if (filterPodcast == "alle" || doughnut.categories.includes(parseInt(filterDoughnut))) {
-                        const klon = skabelon.cloneNode(true);
-                        const klon = skabelon.cloneNode(true).content;
-                        klon.querySelector("h2").textContent = doughnut.title.rendered;
-                        klon.querySelector("img").src = doughnut.billede.guid;
-                        klon.querySelector(".pris").textContent = doughnut.pris;
-                        klon.querySelector(".beskrivelse").textContent = doughnut.beskrivelse;
 
-                        klon.querySelector("article").addEventListener("click", () => {
-                            location.href = doughnut.link;
+                    async function getJson() {
+                        const data = await fetch(dbUrl);
+                        const catdata = await fetch(catUrl);
+                        doughnuts = await data.json();
+                        categories = await catdata.json();
 
+                        console.log(doughnuts);
+
+                        visDoughnuts();
+                        opretKnapper();
+                    }
+
+                    function opretKnapper() {
+                        categories.forEach(cat => {
+                            document.querySelector("#filtrering").innerHTML += `<button class="filter" data-podcast="${cat.id}">${cat.name}</button>`
                         })
-                        container.appendChild(klon);
+
+                        addEventListenerToButtons();
+                    }
+
+                    function addEventListenerToButtons() {
+                        document.querySelectorAll("#filtrering button").forEach(elm => {
+                            elm.addEventListener("click", filtrering);
+                        })
+
 
                     }
 
-                })
-            }
+                    function filtrering() {
 
-            getJson();
+                        document.querySelector(".valgt").classList.remove("valgt");
 
-        </script>
+                        this.classList.add("valgt");
+
+                        filterDoughnut = this.dataset.doughnuts;
+                        console.log(filterDoughnuts);
+
+                        visDoughnuts();
 
 
 
-    </div>
-    <!--#content-inside -->
-</div><!-- #content -->
+                    }
 
-<?php get_footer(); ?>
+
+                    function visDoughnuts() {
+                        let temp = document.querySelector("template");
+                        let container = document.querySelector("#doughnutcontainer")
+                        container.innerHTML = "";
+                        console.log(doughnuts);
+
+                        doughnuts.forEach(doughnut => {
+                            if (filterDoughnuts == "alle" || doughnut.categories.includes(parseInt(filterDoughnut))) {
+
+                                let klon = temp.cloneNode(true).content;
+
+                                klon.querySelector("h2").textContent = doughnut.title.rendered;
+                                klon.querySelector("img").src = doughnut.billede.guid;
+                                klon.querySelector(".pris").textContent = doughnut.pris;
+                                klon.querySelector(".beskrivelse").textContent = doughnut.beskrivelse;
+
+                                klon.querySelector("article").addEventListener("click", () => {
+                                    location.href = doughnut.link;
+
+                                })
+                                container.appendChild(klon);
+
+                            }
+
+                        })
+                    }
+
+                    getJson();
+
+                </script>
+
+
+
+        </div>
+        <!--#content-inside -->
+    </div><!-- #content -->
+
+    <?php get_footer(); ?>
