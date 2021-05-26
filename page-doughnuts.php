@@ -24,34 +24,32 @@ do_action( 'onepress_page_before_content' );
                 <h1 id="overskrift">Doughnuts</h1>
                 <section id="doughnut-oversigt"></section>
 
+
+                <template>
+                    <article>
+                        <img src="" alt="">
+                        <div>
+                            <h2 class="navn"></h2>
+                            <!--<p class="kategori"></p>-->
+                            <p class="pris"></p>
+                            <p class="beskrivelse"></p>
+                        </div>
+                    </article>
+                </template>
             </main><!-- #main -->
-            <template>
-                <article>
-                    <h2 class="navn"></h2>
-                    <img src="" alt="">
-                    <!--<p class="kategori"></p>-->
-                    <p class="pris"></p>
-                    <p class="beskrivelse"></p>
-                </article>
-            </template>
+
             <script>
-                let doughnuts = [];
-                const liste = document.querySelector("#doughnut-oversigt");
-                const skabelon = document.querySelector("template");
-                let filterDoughnut = "alle";
-                document.addEventListener("DOMContentLoaded", start);
-
-                function start() {
-                    getJson();
-                }
+                let doughnuts;
 
 
-                const url = "http://monicaamundsen.com/kea/10_eksamen/doughgirls/wp-json/wp/v2/doughnut";
 
-                async function getJason() {
-                    let response = await fetch(url);
-                    doughnuts = await response.json();
-                    visDoughnuts();
+                const dbUrl = "http://monicaamundsen.com/kea/10_eksamen/doughgirls/wp-json/wp/v2/doughnut";
+
+                async function getJson() {
+                    const data = await fetch(dbUrl);
+                    doughnuts = await data.json();
+                    console.log(doughnuts);
+                    /*visDoughnuts();*/
                 }
 
                 function visDoughnuts() {
@@ -70,6 +68,7 @@ do_action( 'onepress_page_before_content' );
 
                     })
                 }
+                getJson();
 
             </script>
 
