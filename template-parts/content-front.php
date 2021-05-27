@@ -10,7 +10,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    Min særlige forside
+   <!-- Min særlige forside-->
     <header class="entry-header overskrift">
 
         <?php //the_title( '<h1 class="entry-title">', '</h1>' ); ?>

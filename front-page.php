@@ -21,6 +21,11 @@ do_action( 'onepress_page_before_content' );
     <div id="content-inside" class="container <?php echo esc_attr( $layout ); ?>">
         <div id="primary" class="content-area">
             <main id="main" class="site-main" role="main">
+                Splash video
+                tekst vs billede
+                tre grid
+                knapp
+                SoMe slide
 
                 <?php while ( have_posts() ) : the_post(); ?>
 

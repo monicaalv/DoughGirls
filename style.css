@@ -21,7 +21,8 @@ Description: Stylish Child Theme Based on One Press
 }
 
 /*//baggrundsfarve//*/
-.blog .site-content {
+.blog .site-content,
+.site-content {
     background-color: #fcf8f2;
 }
 
@@ -37,5 +38,49 @@ Description: Stylish Child Theme Based on One Press
     margin-top: -1px;
 }
 
+.site-branding .site-title,
+.site-branding .site-text-logo {
+    margin-top: 20px;
+}
+
+/*//hamburger//*/
+#nav-toggle {
+    margin-top: 15px;
+}
 
 /*///----------Generelt slut---------///*/
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.7;
+    color: black;
+    border: none;
+    background-color: #fcf8f2;
+
+
+}
+
+
+
+button:hover {
+    color: #D57A72;
+
+}
+
+button:visited {
+    text-decoration: #D57A72;
+}
+
+
+/*-----------Filtreringsknapper------------*/
+
+
+
+
+/*-------------mobil----------------------------------------*/

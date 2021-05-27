@@ -56,7 +56,7 @@ do_action( 'onepress_page_before_content' );
 
 
 
-            const dbUrl = "http://monicaamundsen.com/kea/10_eksamen/doughgirls/wp-json/wp/v2/doughnut";
+            const dbUrl = "http://monicaamundsen.com/kea/10_eksamen/doughgirls/wp-json/wp/v2/doughnut?per_page=100";
 
             const catUrl = "http://monicaamundsen.com/kea/10_eksamen/doughgirls/wp-json/wp/v2/categories"
 
@@ -97,7 +97,7 @@ do_action( 'onepress_page_before_content' );
 
                 this.classList.add("valgt");
 
-                filterDoughnut = this.dataset.doughnuts; /*med eller uden s*/
+                filterDoughnuts = this.dataset.doughnut;
                 console.log(filterDoughnuts);
 
                 visDoughnuts();
@@ -114,7 +114,7 @@ do_action( 'onepress_page_before_content' );
                 console.log(doughnuts);
 
                 doughnuts.forEach(doughnut => {
-                    if (filterDoughnuts == "alle" || doughnut.categories.includes(parseInt(filterDoughnut))) {
+                    if (filterDoughnuts == "alle" || doughnut.categories.includes(parseInt(filterDoughnuts))) {
 
                         let klon = temp.cloneNode(true).content;
 
