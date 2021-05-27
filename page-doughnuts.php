@@ -27,8 +27,7 @@ do_action( 'onepress_page_before_content' );
 
         <template>
             <article>
-                <img src="" alt="">
-
+                <img class="billede" src="" alt="">
                 <h2 class="navn"></h2>
                 <!--<p class="kategori"></p>-->
                 <p class="pris"></p>
@@ -119,7 +118,7 @@ do_action( 'onepress_page_before_content' );
                         let klon = temp.cloneNode(true).content;
 
                         klon.querySelector("h2").textContent = doughnut.title.rendered;
-                        klon.querySelector("img").src = doughnut.billede.guid;
+                        klon.querySelector(".billede").src = doughnut.billede.guid;
                         klon.querySelector(".pris").textContent = doughnut.pris;
                         klon.querySelector(".beskrivelse").textContent = doughnut.beskrivelse;
 

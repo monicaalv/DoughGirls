@@ -70,13 +70,20 @@ textarea {
 
 button:hover {
     color: #D57A72;
+    border: none;
+    box-shadow: none;
 
 }
 
-button:visited {
-    text-decoration: #D57A72;
-}
 
+
+.valgt {
+    color: #D57A72;
+    text-decoration: underline;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
 
 /*-----------Filtreringsknapper------------*/
 
@@ -84,3 +91,23 @@ button:visited {
 
 
 /*-------------mobil----------------------------------------*/
+
+#filtrering {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vw;
+
+
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    text-align: left;
+    font-size: 1.1rem;
+   /* border-spacing: 30px;*/
+}
