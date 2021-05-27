@@ -31,7 +31,9 @@ do_action( 'onepress_page_before_content' );
                 <h2 class="navn"></h2>
                 <!--<p class="kategori"></p>-->
                 <p class="pris"></p>
-                <button class="infoknap">Læs mere</button>
+                <div class="info-container">
+                    <button class="infoknap" type="infoknap">Læs mere</button>
+                </div>
                 <!-- <p class="beskrivelse"></p>-->
 
             </article>
@@ -77,7 +79,7 @@ do_action( 'onepress_page_before_content' );
 
             function opretKnapper() {
                 categories.forEach(cat => {
-                    document.querySelector("#filtrering").innerHTML += `<button class="filter" data-podcast="${cat.id}">${cat.name}</button>`
+                    document.querySelector("#filtrering").innerHTML += `<button class="filter" data-doughnut="${cat.id}">${cat.name}</button>`
                 })
 
                 addEventListenerToButtons();
@@ -98,7 +100,7 @@ do_action( 'onepress_page_before_content' );
                 this.classList.add("valgt");
 
                 filterDoughnuts = this.dataset.doughnut;
-                console.log(filterDoughnuts);
+                console.log("filterDoughnuts", filterDoughnuts);
 
                 visDoughnuts();
 
@@ -111,7 +113,7 @@ do_action( 'onepress_page_before_content' );
                 let temp = document.querySelector("template");
                 let container = document.querySelector("#doughnutcontainer")
                 container.innerHTML = "";
-                console.log(doughnuts);
+                console.log("doughnuts", doughnuts);
 
                 doughnuts.forEach(doughnut => {
                     if (filterDoughnuts == "alle" || doughnut.categories.includes(parseInt(filterDoughnuts))) {
