@@ -91,15 +91,37 @@ button:hover {
 
 
 /*-------------mobil----------------------------------------*/
+@media (max-width: 376px) {
 
-#filtrering {
-    margin: auto;
-    width: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2vw;
+    img {
+        max-width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
 
+    }
 
+    #filtrering {
+        margin: auto;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2vw;
+        margin-bottom: 3rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 1rem;
+
+    }
+
+    .pris {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
 }
 
 body,
@@ -115,4 +137,14 @@ textarea {
 
 /*--------Ipad media-----------------------*/
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+
+    #filtrering {
+        font-size: 0.95rem;
+
+    }
+
+
+
+
+}

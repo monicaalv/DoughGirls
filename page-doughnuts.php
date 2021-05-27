@@ -31,7 +31,8 @@ do_action( 'onepress_page_before_content' );
                 <h2 class="navn"></h2>
                 <!--<p class="kategori"></p>-->
                 <p class="pris"></p>
-                <p class="beskrivelse"></p>
+                <button class="infoknap">Læs mere</button>
+                <!-- <p class="beskrivelse"></p>-->
 
             </article>
         </template>
@@ -120,7 +121,7 @@ do_action( 'onepress_page_before_content' );
                         klon.querySelector("h2").textContent = doughnut.title.rendered;
                         klon.querySelector(".billede").src = doughnut.billede.guid;
                         klon.querySelector(".pris").textContent = doughnut.pris;
-                        klon.querySelector(".beskrivelse").textContent = doughnut.beskrivelse;
+                        /*klon.querySelector(".beskrivelse").textContent = doughnut.beskrivelse;*/
 
                         klon.querySelector("article").addEventListener("click", () => {
                             location.href = doughnut.link;
