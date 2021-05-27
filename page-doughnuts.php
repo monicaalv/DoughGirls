@@ -122,7 +122,8 @@ do_action( 'onepress_page_before_content' );
 
                         klon.querySelector("h2").textContent = doughnut.title.rendered;
                         klon.querySelector(".billede").src = doughnut.billede.guid;
-                        klon.querySelector(".pris").textContent = doughnut.pris;
+                        /* klon.querySelector(".pris").textContent = doughnut.pris;*/
+                        klon.querySelector(".pris").textContent = `${"Pris: "}` + doughnut.pris + `${",-"}`;
                         /*klon.querySelector(".beskrivelse").textContent = doughnut.beskrivelse;*/
 
                         klon.querySelector("article").addEventListener("click", () => {

@@ -174,8 +174,20 @@ textarea {
 @media (min-width: 768px) {
 
     #filtrering {
-        font-size: 0.95rem;
+        margin-left: 2.2rem;
+        /*font-size: 0.95rem;
+position: relative;*/
+    }
 
+    #filtrering,
+    button {
+        /* position: absolute;
+        top: 50%;
+        left: 50%;*/
+        /* -webkit-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ text-align: center;*/
     }
 
     #doughnutcontainer {
@@ -189,7 +201,7 @@ textarea {
     }
 
     article {
-        margin-top: 3rem;
+        margin-top: 3.5rem;
     }
 
     h2,
@@ -213,4 +225,45 @@ textarea {
         transform: translate(-50%, -50%);
         text-align: center;
     }
+}
+
+/*----------descktop----------------*/
+
+@media (min-width: 800px) {
+    #doughnutcontainer {
+        margin: auto;
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 60px;
+        width: 90%;
+
+    }
+
+    h2 {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+    }
+
+    body,
+    button,
+    input,
+    select,
+    textarea {
+        font-family: "Open Sans", Helvetica, Arial, sans-serif;
+        font-size: 1.5rem;
+        line-height: 1.7;
+        color: black;
+        border: none;
+        background-color: #fcf8f2;
+
+    }
+
+    .pris {
+        font-size: 1.3rem;
+    }
+
+    /* .infoknap {}*/
+
 }
