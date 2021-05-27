@@ -109,5 +109,10 @@ select,
 textarea {
     text-align: left;
     font-size: 1.1rem;
-   /* border-spacing: 30px;*/
+    /* border-spacing: 30px;*/
+
 }
+
+/*--------Ipad media-----------------------*/
+
+@media (max-width: 768px) {}
