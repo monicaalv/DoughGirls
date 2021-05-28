@@ -10,14 +10,12 @@ Description: Stylish Child Theme Based on One Press
 */
 /*///----------Generelt---------///*/
 
-
-
 /*--logo--*/
 .site-logo-div img {
-    height: 70px;
+    height: 60px;
     width: auto;
-    margin-top: 25px;
-    margin-left: 77px;
+    margin-top: 18px;
+    margin-left: 37px;
     margin-bottom: 10px;
 }
 
@@ -36,6 +34,10 @@ Description: Stylish Child Theme Based on One Press
 .blog .site-content,
 .site-content {
     background-color: #fcf8f2;
+}
+
+#content {
+    background: #fcf8f2;
 }
 
 /*//shadow//*/
@@ -88,7 +90,10 @@ textarea {
     font-size: 0.9rem;
     padding-left: 11px;
     padding-right: 11px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     /*background-color: #4b6e4d;*/
+
 }
 
 
@@ -149,6 +154,9 @@ p {
     font-weight: 300;
     line-height: 22px;
 }
+
+
+
 
 
 
@@ -219,41 +227,46 @@ p {
         transform: translate(-50%, -50%);
         text-align: center;
     }
-}
 
-body,
-button,
-input,
-select,
-textarea {
-    text-align: left;
-    font-size: 1.1rem;
-    /* border-spacing: 30px;*/
 
-}
+    body,
+    button,
+    input,
+    select,
+    textarea {
+        text-align: left;
+        font-size: 1.1rem;
+        /* border-spacing: 30px;*/
 
-.textwidget {
-    margin-left: 43px;
-    margin-top: 15px;
+    }
 
-}
+    .textwidget {
+        margin-left: 43px;
+        margin-top: 15px;
 
-#menu-footermenu {
-    margin-left: 43px;
-}
+    }
 
-.sidebar .widget .widget-title {
-    font-size: 15px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-    font-weight: 700;
-    margin-left: -122px;
+    #menu-footermenu {
+        margin-left: 43px;
+    }
+
+    .sidebar .widget .widget-title {
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        margin-left: -122px;
+    }
+
 }
 
 /*--------Ipad media-----------------------*/
 
 @media (min-width: 400px) {
+
+
+
 
     /*    --header--*/
     .site-header {
@@ -261,11 +274,22 @@ textarea {
         box-shadow: none;
     }
 
-    /* ---nav--*/
+    /*--logo--*/
+    .site-logo-div img {
+        height: 70px;
+        width: auto;
+        margin-top: 25px;
+        margin-left: 77px;
+        margin-bottom: 10px;
+    }
+
+  /*  ---nav--*/
+
     #filtrering {
+
         margin-left: 2.2rem;
         font-size: 1rem;
-        /*font-size: 0.95rem;*/
+        font-size: 0.95rem;
         position: relative;
 
     }
@@ -274,8 +298,8 @@ textarea {
     #filtrering,
     filter valgt {
         float: none;
-        /*
-        position: absolute;*/
+
+        /*position: absolute;*/
         top: 50%;
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
@@ -283,7 +307,7 @@ textarea {
         transform: translate(-50%, -50%);
         text-align: center;
         margin-top: 20px;
-        /* column-gap: 7px;*/
+        /* column-gap: 7px;
         /* display: flex;*/
     }
 
@@ -338,81 +362,102 @@ textarea {
         transform: translate(-50%, -50%);
         text-align: center;
     }
+
+
+    /*----footer---*/
+    .sidebar .widget .widget-title {
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        margin-left: -113px;
+
+
+
+
+    }
+
+
+
 }
 
-/*----footer---*/
-.sidebar .widget .widget-title {
-    font-size: 15px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-    font-weight: 700;
-    margin-left: -35%;
 
 
 
-    /*----------descktop----------------*/
-    /*---vores Doughnuts--*/
+/*----------descktop----------------*/
+/*---vores Doughnuts--*/
 
-    @media (min-width: 800px) {
-        #doughnutcontainer {
-            margin: auto;
-            margin-top: 2rem;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr;
-            column-gap: 60px;
-            width: 90%;
+@media (min-width: 700px) {
 
-        }
+    #doughnutcontainer {
+        margin: auto;
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 60px;
+        width: 90%;
 
-        .site-header {
-            background-color: #edd97e;
-            box-shadow: none;
-        }
+    }
+
+    .site-header {
+        background-color: #edd97e;
+        box-shadow: none;
+    }
 
 
-        h2 {
-            margin-top: 2rem;
-            font-size: 1.5rem;
-        }
+    h2 {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
 
-        .pris {
-            font-size: 1.1rem;
-        }
+    .pris {
+        font-size: 1.1rem;
+    }
 
 
 
 
 
-        /* .infoknap {}*/
+    /* .infoknap {}*/
 
-        /*--Om Os---*/
+    /*--Om Os---*/
 
-        .elementor *,
-        .elementor ::after,
-        .elementor ::before {
-            -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-            /* margin-bottom: 79px;*/
-        }
+    .elementor *,
+    .elementor ::after,
+    .elementor ::before {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        /* margin-bottom: 79px;*/
+    }
 
-        .has-text-align-center {
-            text-align: left;
-        }
+    .has-text-align-center {
+        text-align: left;
+    }
 
-        .has-text-align-center has-large-font-size {
-            margin-left: 30px;
-        }
+    .has-text-align-center has-large-font-size {
+        margin-left: 30px;
+    }
 
-        .has-large-font-size {
-            font-size: 2.25em;
-            margin-left: 37px;
-        }
+    .has-large-font-size {
+        font-size: 2.25em;
+        margin-left: 37px;
+    }
 
-        /*---footer--*/
+    /*---footer--*/
 
-        .sidebar .widget .widget-title {
-            margin-left: -321px;
-            text-align: left;
-        }
+    .sidebar .widget .widget-title {
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        margin-left: -322px;
+    }
+
+
+
+
+
+}
