@@ -10,6 +10,16 @@ Description: Stylish Child Theme Based on One Press
 */
 /*///----------Generelt---------///*/
 
+/*---video---*/
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 30%;
+}
+
+
 /*--logo--*/
 .site-logo-div img {
     height: 60px;

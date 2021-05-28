@@ -24,7 +24,7 @@ do_action( 'onepress_page_before_content' );
 
                 <!-- spalsh video -->
                 <video autoplay muted loop id="myVideo">
-                    <source src="https://drive.google.com/file/d/19v6Yyb5DHAWg-HSLOzXHPQWtxNYfxLLX/view?usp=sharing" type="video/mp4">
+                    <source src="splash_video_export1080.mp4" type="video/mp4">
                 </video>
 
 
