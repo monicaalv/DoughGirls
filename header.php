@@ -20,6 +20,8 @@
     <?php wp_head(); ?>
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css">
     <!--for at style.css skal virke-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 </head>
 
 <body <?php body_class(); ?>>
