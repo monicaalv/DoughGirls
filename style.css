@@ -10,6 +10,14 @@ Description: Stylish Child Theme Based on One Press
 */
 /*///----------Generelt---------///*/
 
+/*--logo--*/
+.site-logo-div img {
+    height: 70px;
+    width: auto;
+    margin-top: 25px;
+    margin-left: 77px;
+    margin-bottom: 10px;
+}
 
 .page-header {
     padding: 30px 0px;
@@ -19,6 +27,8 @@ Description: Stylish Child Theme Based on One Press
     position: relative;
     display: none;
 }
+
+
 
 /*//baggrundsfarve//*/
 .blog .site-content,
@@ -48,7 +58,38 @@ Description: Stylish Child Theme Based on One Press
     margin-top: 15px;
 }
 
-/*///----------Generelt slut---------///*/
+/* ---knapper--*/
+body,
+button,
+input,
+select,
+textarea {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: black;
+
+    background-color: #fcf8f2;
+
+}
+
+.infoknap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1.5px solid #4b6e4d;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    padding-left: 11px;
+    padding-right: 11px;
+    /*background-color: #4b6e4d;*/
+}
+
+
 
 body,
 button,
@@ -85,7 +126,11 @@ button:hover {
     box-shadow: none;
 }
 
-/*-----------Filtreringsknapper------------*/
+.site-header {
+    background-color: #edd97e;
+    box-shadow: none;
+}
+
 
 
 
@@ -93,12 +138,32 @@ button:hover {
 /*-------------mobil----------------------------------------*/
 @media (max-width: 376px) {
 
+    /*--logo--*/
+    .site-logo-div img {
+        height: 60px;
+        width: auto;
+        margin-top: 18px;
+        margin-left: 37px;
+        margin-bottom: 10px;
+    }
+
+    .site-header {
+        background-color: #edd97e;
+        box-shadow: none;
+    }
+
+    #primary {
+        padding-bottom: 40px;
+        padding-top: 17px;
+    }
+
     img {
         max-width: 80%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 65%;
+        margin-top: 87px;
 
     }
 
@@ -171,23 +236,53 @@ textarea {
 
 /*--------Ipad media-----------------------*/
 
-@media (min-width: 768px) {
+@media (min-width: 400px) {
 
-    #filtrering {
-        margin-left: 2.2rem;
-        /*font-size: 0.95rem;
-position: relative;*/
+    /*    --header--*/
+    .site-header {
+        background-color: #edd97e;
+        box-shadow: none;
     }
 
+    /* ---nav--*/
+    #filtrering {
+        margin-left: 2.2rem;
+        font-size: 1rem;
+        /*font-size: 0.95rem;*/
+        position: relative;
+
+    }
+
+
     #filtrering,
-    button {
-        /* position: absolute;
+    filter valgt {
+        float: none;
+        /*
+        position: absolute;*/
         top: 50%;
-        left: 50%;*/
-        /* -webkit-transform: translate(-50%, -50%);
- -ms-transform: translate(-50%, -50%);
- transform: translate(-50%, -50%);
- text-align: center;*/
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        margin-top: 20px;
+        column-gap: 7px;
+        display: flex;
+    }
+
+    /*--knap--*/
+    body,
+    button,
+    input,
+    select,
+    textarea {
+        font-family: "Open Sans", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-size: 1.1rem;
+        line-height: 1.2;
+        color: black;
+        border: none;
+        background-color: #fcf8f2;
     }
 
     #doughnutcontainer {
@@ -197,6 +292,7 @@ position: relative;*/
         grid-template-rows: 1fr 1fr;
         column-gap: 60px;
         width: 90%;
+        margin-top: 1rem;
 
     }
 
@@ -228,6 +324,7 @@ position: relative;*/
 }
 
 /*----------descktop----------------*/
+/*---vores Doughnuts--*/
 
 @media (min-width: 800px) {
     #doughnutcontainer {
@@ -241,29 +338,46 @@ position: relative;*/
 
     }
 
-    h2 {
-        margin-top: 2rem;
-        font-size: 1.8rem;
+    .site-header {
+        background-color: #edd97e;
+        box-shadow: none;
     }
 
-    body,
-    button,
-    input,
-    select,
-    textarea {
-        font-family: "Open Sans", Helvetica, Arial, sans-serif;
-        font-size: 1.5rem;
-        line-height: 1.7;
-        color: black;
-        border: none;
-        background-color: #fcf8f2;
 
+    h2 {
+        margin-top: 2rem;
+        font-size: 1.5rem;
     }
 
     .pris {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
+
+
+
+
 
     /* .infoknap {}*/
 
-}
+    /*--Om Os---*/
+
+    .elementor *,
+    .elementor ::after,
+    .elementor ::before {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        /* margin-bottom: 79px;*/
+    }
+
+    .has-text-align-center {
+        text-align: left;
+    }
+
+    .has-text-align-center has-large-font-size {
+        margin-left: 30px;
+    }
+
+    .has-large-font-size {
+        font-size: 2.25em;
+        margin-left: 37px;
+    }
