@@ -10,6 +10,8 @@ Description: Stylish Child Theme Based on One Press
 */
 /*///----------Generelt---------///*/
 
+
+
 /*--logo--*/
 .site-logo-div img {
     height: 70px;
@@ -131,7 +133,22 @@ button:hover {
     box-shadow: none;
 }
 
+h2 {
+    font-family: 'Kalam', cursive;
+}
 
+h2,
+navn {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    line-height: 22px;
+}
 
 
 
@@ -266,8 +283,8 @@ textarea {
         transform: translate(-50%, -50%);
         text-align: center;
         margin-top: 20px;
-       /* column-gap: 7px;*/
-       /* display: flex;*/
+        /* column-gap: 7px;*/
+        /* display: flex;*/
     }
 
     /*--knap--*/
@@ -323,61 +340,79 @@ textarea {
     }
 }
 
-/*----------descktop----------------*/
-/*---vores Doughnuts--*/
-
-@media (min-width: 800px) {
-    #doughnutcontainer {
-        margin: auto;
-        margin-top: 2rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        column-gap: 60px;
-        width: 90%;
-
-    }
-
-    .site-header {
-        background-color: #edd97e;
-        box-shadow: none;
-    }
-
-
-    h2 {
-        margin-top: 2rem;
-        font-size: 1.5rem;
-    }
-
-    .pris {
-        font-size: 1.1rem;
-    }
+/*----footer---*/
+.sidebar .widget .widget-title {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    margin-left: -35%;
 
 
 
+    /*----------descktop----------------*/
+    /*---vores Doughnuts--*/
+
+    @media (min-width: 800px) {
+        #doughnutcontainer {
+            margin: auto;
+            margin-top: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            column-gap: 60px;
+            width: 90%;
+
+        }
+
+        .site-header {
+            background-color: #edd97e;
+            box-shadow: none;
+        }
 
 
-    /* .infoknap {}*/
+        h2 {
+            margin-top: 2rem;
+            font-size: 1.5rem;
+        }
 
-    /*--Om Os---*/
+        .pris {
+            font-size: 1.1rem;
+        }
 
-    .elementor *,
-    .elementor ::after,
-    .elementor ::before {
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        /* margin-bottom: 79px;*/
-    }
 
-    .has-text-align-center {
-        text-align: left;
-    }
 
-    .has-text-align-center has-large-font-size {
-        margin-left: 30px;
-    }
 
-    .has-large-font-size {
-        font-size: 2.25em;
-        margin-left: 37px;
-    }
+
+        /* .infoknap {}*/
+
+        /*--Om Os---*/
+
+        .elementor *,
+        .elementor ::after,
+        .elementor ::before {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            /* margin-bottom: 79px;*/
+        }
+
+        .has-text-align-center {
+            text-align: left;
+        }
+
+        .has-text-align-center has-large-font-size {
+            margin-left: 30px;
+        }
+
+        .has-large-font-size {
+            font-size: 2.25em;
+            margin-left: 37px;
+        }
+
+        /*---footer--*/
+
+        .sidebar .widget .widget-title {
+            margin-left: -321px;
+            text-align: left;
+        }
