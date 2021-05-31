@@ -12,11 +12,10 @@ Description: Stylish Child Theme Based on One Press
 
 /*---video---*/
 #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 30%;
+    width: 100vw;
+    height: 300vh;
+    /*  min-width: 100%;
+  min-height: 30%;*/
 }
 
 
@@ -166,11 +165,7 @@ p {
 }
 
 
-.wp-block-column:nth-child(3) {
-    background-color: #edd97e;
-    border-radius: 12px;
-    padding: 13px;
-}
+
 
 
 
@@ -280,7 +275,7 @@ p {
 @media (min-width: 400px) {
 
 
-
+    /*---vido---*/
 
     /*    --header--*/
     .site-header {
@@ -403,6 +398,29 @@ p {
 /*---vores Doughnuts--*/
 
 @media (min-width: 700px) {
+
+    /* ---nav---*/
+
+    .onepress-menu a {
+        color: #333333;
+        font-family: "Raleway", Helvetica, Arial, sans-serif;
+        padding-left: 17px;
+        padding-right: 17px;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+        zoom: 1;
+        letter-spacing: 1px;
+        margin-top: 29px;
+    }
+
+    /* ---logo--*/
+
+    .site-logo-div img {
+        margin-left: 0px;
+        height: 100px;
+    }
 
     #doughnutcontainer {
         margin: auto;

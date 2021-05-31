@@ -35,7 +35,16 @@ do_action( 'onepress_page_before_content' );
                     <button class="infoknap" type="infoknap">Læs mere</button>
                 </div>
                 <!-- <p class="beskrivelse"></p>-->
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
 
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Some text in the Modal..</p>
+                    </div>
+
+                </div>
             </article>
         </template>
 
