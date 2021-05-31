@@ -34,17 +34,8 @@ do_action( 'onepress_page_before_content' );
                 <div class="info-container">
                     <button class="infoknap" type="infoknap">Læs mere</button>
                 </div>
-                <!-- <p class="beskrivelse"></p>-->
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
 
-                    <!-- Modal content -->
-                    <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <p>Some text in the Modal..</p>
-                    </div>
 
-                </div>
             </article>
         </template>
 
@@ -131,9 +122,9 @@ do_action( 'onepress_page_before_content' );
 
                         klon.querySelector("h2").textContent = doughnut.title.rendered;
                         klon.querySelector(".billede").src = doughnut.billede.guid;
-                        /* klon.querySelector(".pris").textContent = doughnut.pris;*/
+
                         klon.querySelector(".pris").textContent = `${"Pris: "}` + doughnut.pris + `${",-"}`;
-                        /*klon.querySelector(".beskrivelse").textContent = doughnut.beskrivelse;*/
+
 
                         klon.querySelector("article").addEventListener("click", () => {
                             location.href = doughnut.link;

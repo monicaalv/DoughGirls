@@ -65,6 +65,8 @@ do_action( 'onepress_page_before_content' );
                     document.querySelector(".pris").textContent = `${"Pris: "}` + doughnut.pris + `${",-"}`;
                     document.querySelector(".beskrivelse").textContent = doughnut.beskrivelse;
 
+
+
                 }
 
                 getJson();
