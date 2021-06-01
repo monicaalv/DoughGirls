@@ -28,6 +28,7 @@ do_action( 'onepress_page_before_content' );
                     <h2 class="navn"></h2>
                     <p class="pris"></p>
                     <p class="beskrivelse"></p>
+                    <h3>Ingredienser</h3>
                     <p class="ingredienser"></p>
                     <div class="info-container">
                         <button class="tilbageknap" type="tilbageknap">Tilbage</button>
@@ -65,7 +66,7 @@ do_action( 'onepress_page_before_content' );
 
                     document.querySelector(".pris").textContent = `${"Pris: "}` + doughnut.pris + `${",-"}`;
                     document.querySelector(".beskrivelse").textContent = doughnut.beskrivelse;
-                    document.querySelector(".ingredienser").textContent = `${"Ingredienser: "}` + doughnut.ingredienser;
+                    document.querySelector(".ingredienser").textContent = doughnut.ingredienser;
 
                     document.querySelector("button").addEventListener("click", tilbageTilForside);
 

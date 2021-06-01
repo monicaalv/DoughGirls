@@ -239,6 +239,7 @@ h1 {
 }
 
 h2,
+h3,
 navn {
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
@@ -281,6 +282,11 @@ p {
 .content-area_single article .tilbageknap {
     margin-top: 16px;
 
+}
+
+.content-area_single article h3 {
+    margin-top: 35px;
+    font-size: 1.2rem;
 }
 
 /*-------------mobil----------------------------------------*/
@@ -744,7 +750,7 @@ p {
 /*----------descktop----------------*/
 /*---vores Doughnuts--*/
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
 
 
 
@@ -821,10 +827,24 @@ p {
         letter-spacing: 2px;
         margin-bottom: 20px;
         font-weight: 700;
-        margin-left: -322px;
+        margin-left: 1px;
+    }
+
+    /*---singleview---*/
+
+    .content-area_single article {
+        margin: 300px;
     }
 
 
+
+    /*  .content-area_single .pic {
+      margin-top: 10px;
+      max-width: 100%;
+      width: 90%;
+      margin: auto;
+
+  }*/
 
 
 }
