@@ -23,9 +23,11 @@ do_action( 'onepress_page_before_content' );
             <main id="main" class="site-main" role="main">
 
                 <!-- spalsh video -->
-                <video autoplay muted loop id="myVideo">
-                    <source src="splash_video_export1080.mp4" type="video/mp4">
-                </video>
+                <div class="containerVideo">
+                    <video autoplay muted loop id="myVideo">
+                        <source src="splash_video_export1080.mp4" type="video/mp4">
+                    </video>
+                </div>
 
 
                 <?php while ( have_posts() ) : the_post(); ?>

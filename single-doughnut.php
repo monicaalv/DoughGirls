@@ -65,8 +65,17 @@ do_action( 'onepress_page_before_content' );
                     document.querySelector(".pris").textContent = `${"Pris: "}` + doughnut.pris + `${",-"}`;
                     document.querySelector(".beskrivelse").textContent = doughnut.beskrivelse;
 
+                    document.querySelector("button").addEventListener("click", tilbageTilForside);
 
 
+                }
+
+
+
+
+
+                function tilbageTilForside() {
+                    history.back();
                 }
 
                 getJson();
