@@ -633,6 +633,45 @@ p {
 
     }
 
+    /*   ----------------VORES CAFE--------------------*/
+
+    .site-content {
+        padding: 20px;
+    }
+
+    .kaffeKop img {
+        margin-left: 119px;
+        margin-top: 54px;
+        max-width: 100%;
+        width: 41%;
+
+    }
+
+    .wp-block-column .size-large img {
+        margin-top: 75px;
+        margin-top: 57px;
+
+    }
+
+
+    .piskeRis img {
+        max-width: 100%;
+        width: 21%;
+        margin-top: -124px;
+        margin-left: 123px;
+    }
+
+    .entry-content .has-text-align-center p {
+        margin-bottom: 32px;
+    }
+
+    .fam_ikon img {
+        margin-left: 39px;
+        max-width: 100%;
+        width: 21%;
+    }
+
+
 
 
 }
