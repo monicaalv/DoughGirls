@@ -186,13 +186,12 @@ textarea {
         /* display: flex;*/
 }
 
-
-.button:hover {
+.info-container .infoknap:hover {
     color: #D57A72;
     border: none;
     box-shadow: none;
-
 }
+
 
 .tilbageknap:hover {
     color: #D57A72;
@@ -666,13 +665,34 @@ p {
     }
 
     .fam_ikon img {
-        margin-left: 39px;
+        margin-left: 120px;
         max-width: 100%;
-        width: 21%;
+        width: 20%;
+        margin-top: -53px;
     }
 
+    .pose_ikon img {
+        margin-left: 122px;
+        margin-top: 59px
+    }
 
+    .wp-image-245 {
+        margin-top: 0;
+    }
 
+    .hvede3 img {
+        margin-left: 58px;
+    }
+
+    /*----footer---*/
+    .footer-widgets .container {
+        margin: 20px;
+    }
+
+    .footer-widgets .row .widget-title {
+        text-align: left;
+        margin-left: 2px;
+    }
 
 }
 

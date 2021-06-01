@@ -65,7 +65,7 @@ do_action( 'onepress_page_before_content' );
 
                     document.querySelector(".pris").textContent = `${"Pris: "}` + doughnut.pris + `${",-"}`;
                     document.querySelector(".beskrivelse").textContent = doughnut.beskrivelse;
-                    document.querySelector(".ingredienser").textContent = doughnut.beskrivelse;
+                    document.querySelector(".ingredienser").textContent = `${"Ingredienser: "}` + doughnut.ingredienser;
 
                     document.querySelector("button").addEventListener("click", tilbageTilForside);
 
