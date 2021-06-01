@@ -252,9 +252,36 @@ p {
 }
 
 
+/*----boks doughnuts-----*/
+/*.site-content article {
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 5px;
 
+    background-color: #E5B29E;
 
+}*/
 
+/*    ----singleview----*/
+
+.content-area_single article {
+    margin: 60px;
+
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #E5B29E;
+
+}
+
+.content-area_single article h2 {
+    margin-top: 38px;
+}
+
+.content-area_single article .tilbageknap {
+    margin-top: 16px;
+
+}
 
 /*-------------mobil----------------------------------------*/
 @media (max-width: 376px) {
@@ -280,7 +307,7 @@ p {
         grid-gap: 2vw;
         /*margin-bottom: 3rem;*/
         margin-top: 90px;
-        margin-left: 200px;
+        margin-left: 186px;
     }
 
     /*---forside ikoner----*/
@@ -511,7 +538,18 @@ p {
     }
 
 
+    /*--------------singleview---------*/
 
+    .content-area_single article {
+        margin: 15px;
+    }
+
+    .content-area_single .pic {
+        margin-top: 10px;
+        max-width: 100%;
+        width: 100%;
+
+    }
 
 
 }
@@ -559,22 +597,6 @@ p {
 
     }
 
-
-
-    /*--knap--*/
-    /*  body,
-    button,
-    input,
-    select,
-    textarea {
-        font-family: 'Quicksand', sans-serif;
-        font-size: 14px;
-        font-size: 1.1rem;
-        line-height: 1.2;
-        color: black;
-        border: none;
-        background-color: #fcf8f2;
-    }*/
 
     #doughnutcontainer {
         margin: auto;
@@ -694,6 +716,26 @@ p {
         margin-left: 2px;
     }
 
+    /*    ----singleview----*/
+
+    /*    .content-area_single article {
+        margin: 60px;
+
+        padding: 30px;
+        border-radius: 5px;
+        background-color: #E5B29E;
+
+    }
+
+    .content-area_single article h2 {
+        margin-top: 38px;
+    }
+
+    .content-area_single article .tilbageknap {
+        margin-top: 16px;
+
+    }*/
+
 }
 
 
@@ -726,6 +768,7 @@ p {
 
     }
 
+    /*---header---*/
     .site-header {
         background-color: #edd97e;
         box-shadow: none;
@@ -780,7 +823,6 @@ p {
         font-weight: 700;
         margin-left: -322px;
     }
-
 
 
 

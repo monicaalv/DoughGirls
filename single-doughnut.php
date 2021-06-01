@@ -19,7 +19,7 @@ do_action( 'onepress_page_before_content' );
 <div id="content" class="site-content">
     <?php onepress_breadcrumb(); ?>
     <div id="content-inside" class="container <?php echo esc_attr( $layout ); ?>">
-        <div id="primary" class="content-area">
+        <div id="primary" class="content-area_single">
 
 
             <main id="main" class="site-main" role="main">
