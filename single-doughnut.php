@@ -24,16 +24,19 @@ do_action( 'onepress_page_before_content' );
 
             <main id="main" class="site-main" role="main">
                 <article>
-                    <img class="pic" src="" alt="">
-                    <h2 class="navn"></h2>
-                    <p class="pris"></p>
-                    <p class="beskrivelse"></p>
-                    <h3>Ingredienser</h3>
-                    <p class="ingredienser"></p>
-                    <div class="info-container">
-                        <button class="tilbageknap" type="tilbageknap">Tilbage</button>
+                    <div class="left">
+                        <img class="pic" src="" alt="">
                     </div>
-
+                    <div class="right">
+                        <h2 class="navn"></h2>
+                        <p class="pris"></p>
+                        <p class="beskrivelse"></p>
+                        <h3>Ingredienser</h3>
+                        <p class="ingredienser"></p>
+                        <div class="info-container">
+                            <button class="tilbageknap" type="tilbageknap">Tilbage</button>
+                        </div>
+                    </div>
                 </article>
             </main><!-- #main -->
 

@@ -21,13 +21,16 @@ do_action( 'onepress_page_before_content' );
     <div id="content-inside" class="container <?php echo esc_attr( $layout ); ?>">
         <!-- <div id="primary" class="content-area">-->
 
-        <!--  <h1 id="overskrift">Doughnuts</h1>
-  <section id="doughnut-oversigt"></section>-->
+        <h1 id="overskrift">Vore doughnuts</h1>
+        <!-- <section id="doughnut-oversigt"></section>-->
 
 
         <template>
             <article>
+
                 <img class="billede" src="" alt="">
+
+
                 <h2 class="navn"></h2>
                 <!--<p class="kategori"></p>-->
                 <p class="pris"></p>
@@ -37,6 +40,7 @@ do_action( 'onepress_page_before_content' );
 
 
             </article>
+
         </template>
 
         <div id="primary" class="content-area">
