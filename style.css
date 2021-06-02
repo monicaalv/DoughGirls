@@ -18,6 +18,8 @@ Description: Stylish Child Theme Based on One Press
     width: 100%;
     height: 100vh;
     object-fit: cover;
+    margin: 0;
+    padding: 0;
 }
 
 .containerVideo {
@@ -25,7 +27,8 @@ Description: Stylish Child Theme Based on One Press
     overflow: hidden;
     display: block;
     height: 480px;
-    margin-top: 0;
+    margin: 0;
+    padding: 0;
     /*  position: relative;*/
 }
 
@@ -332,10 +335,10 @@ p {
 
     /*----nav----*/
     #filtrering {
-        margin: auto;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: auto;
+        /*   margin: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: auto;*/
         width: 80%;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -344,7 +347,14 @@ p {
         margin-top: 90px;
         margin-left: 201px;
         margin-bottom: -88px;
+
     }
+
+    /* ----navigationsknapper---*/
+    .onepress-menu {
+        padding-right: 43px;
+    }
+
 
     /*---forside ikoner----*/
     .elementor-28 .elementor-element.elementor-element-fb6a8c8 img {
@@ -598,7 +608,7 @@ p {
 
 }
 
-/*--------Ipad media-----------------------*/
+/*--------------------------------------Ipad media-----------------------*/
 
 @media (min-width: 400px) {
 
@@ -717,19 +727,37 @@ p {
         font-size: 2.8rem;
     }
 
-    /*   ----------------VORES CAFE--------------------*/
+    /*   --------OM OS--------------------*/
 
-    .site-content {
+    /* .site-content {
+     padding: 20px;
+ }*/
+
+
+    .entry-content p,
+    h3 {
         padding: 20px;
     }
 
-    .kaffeKop img {
-        margin-left: 119px;
-        margin-top: 54px;
-        max-width: 100%;
-        width: 41%;
+    .entry-content h3 {
+        padding-top: 57px;
+    }
+
+    .wp-block-column .om_os2,
+    .om_os4 {
+        padding-left: 20px;
+    }
+
+    .wp-block-column .om_os2 {
+        padding-top: 64px;
+    }
+
+    .wp-block-column .om_os3 {
+        padding-right: 20px;
 
     }
+
+
 
     .wp-block-column .size-large img {
         margin-top: 75px;
@@ -737,13 +765,6 @@ p {
 
     }
 
-
-    .piskeRis img {
-        max-width: 100%;
-        width: 21%;
-        margin-top: -124px;
-        margin-left: 123px;
-    }
 
     .entry-content .has-text-align-center p {
         margin-bottom: 32px;
@@ -777,6 +798,45 @@ p {
     .footer-widgets .row .widget-title {
         text-align: left;
         margin-left: 2px;
+    }
+
+    /*    ---vores cafe----*/
+
+    .wp-block-column .cafe1 {
+        padding-right: 20px;
+        padding-top: 23px;
+    }
+
+    .kaffeKop img {
+        margin-left: 119px;
+        margin-top: 54px;
+        max-width: 100%;
+        width: 41%;
+        padding-top: 23px;
+    }
+
+    .piskeRis img {
+        max-width: 100%;
+        width: 21%;
+        margin-top: -124px;
+        margin-left: 123px;
+    }
+
+    .wp-block-columns {
+        margin-top: -67px;
+    }
+
+
+    .wp-block-columns .cafe2 {
+        padding-top: 78px;
+        padding-left: 20PX;
+    }
+
+
+
+    .entry-content h1,
+    h2 {
+        padding-left: 20px;
     }
 
     /*    ----singleview----*/
