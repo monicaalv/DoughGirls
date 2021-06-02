@@ -693,6 +693,11 @@ p {
 
     }
 
+    #overskrift {
+        margin-bottom: 30px;
+        font-size: 2.8rem;
+    }
+
     /*   ----------------VORES CAFE--------------------*/
 
     .site-content {
