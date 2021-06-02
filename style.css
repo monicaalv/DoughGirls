@@ -290,6 +290,10 @@ p {
     padding: 0;
 }
 
+#footer-widgets h2 {
+    margin-top: 30px;
+}
+
 #footer-widgets #footer-widgets #footer-1 h2 {
     margin-top: 20px;
 }
