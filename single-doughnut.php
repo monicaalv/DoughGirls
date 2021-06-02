@@ -71,7 +71,7 @@ do_action( 'onepress_page_before_content' );
                     document.querySelector(".beskrivelse").textContent = doughnut.beskrivelse;
                     document.querySelector(".ingredienser").textContent = doughnut.ingredienser;
 
-                    document.querySelector("button").addEventListener("click", tilbageTilForside);
+                    document.querySelector("button").addEventListener("click", tilbageTilProdugtside);
 
 
                 }
@@ -80,7 +80,7 @@ do_action( 'onepress_page_before_content' );
 
 
 
-                function tilbageTilForside() {
+                function tilbageTilProdugtside() {
                     history.back();
                 }
 

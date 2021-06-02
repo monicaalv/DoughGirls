@@ -21,7 +21,7 @@ do_action( 'onepress_page_before_content' );
     <div id="content-inside" class="container <?php echo esc_attr( $layout ); ?>">
         <!-- <div id="primary" class="content-area">-->
 
-        <h1 id="overskrift">Vore doughnuts</h1>
+        <h1 id="overskrift">Vores doughnuts</h1>
         <!-- <section id="doughnut-oversigt"></section>-->
 
 
