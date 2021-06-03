@@ -101,6 +101,11 @@ Description: Stylish Child Theme Based on One Press
 }
 
 
+.donut #main {
+    margin-bottom: 80px;
+}
+
+
 /*//strej//*/
 .site-content {
     border-top: none;
@@ -290,9 +295,6 @@ p {
 
 }
 
-.site-content {
-    margin-bottom: -30px;
-}
 
 
 
@@ -472,9 +474,6 @@ p {
         margin-left: 43px;
     }
 
-    /* .footer-1 h2 {
-     text-align: left;
- }*/
 
     #footer-widgets h2 {
 
@@ -648,7 +647,7 @@ p {
 
     #filtrering {
 
-        margin-left: 2.2rem;
+        margin-left: auto;
         font-size: 1rem;
         font-size: 0.95rem;
         position: relative;
@@ -741,9 +740,6 @@ p {
 
     /*   --------OM OS--------------------*/
 
-    /* .site-content {
-     padding: 20px;
- }*/
 
 
     .entry-content p,
