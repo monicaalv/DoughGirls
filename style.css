@@ -419,20 +419,20 @@ p {
 
     /*----nav----*/
     #filtrering {
-        /*   margin: auto;
-   margin-top: auto;
-   margin-bottom: auto;
-   margin-left: auto;*/
         width: 80%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 2vw;
-        /*margin-bottom: 3rem;*/
-        margin-top: 90px;
-        margin-left: 201px;
-        margin-bottom: -88px;
-
+        grid-gap: 1.5vw;
+        text-align: center;
+        margin: auto;
+        margin-top: 60px;
     }
+
+/*--første billedet i filtrering--*/
+    #doughnutcontainer article:nth-child(1) img {
+        margin-top: 60px;
+    }
+
 
     /* ----navigationsknapper---*/
     .onepress-menu {
@@ -551,6 +551,7 @@ p {
         margin-top: 15px;
 
     }
+
 
 
 
