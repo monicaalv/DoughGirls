@@ -161,7 +161,10 @@ textarea {
 }
 
 #filtrering,
-.filter valgt {
+.border-radius: 12px;
+margin-left: 50px;
+
+margin-right: 50px valgt {
     float: none;
 
     /*position: absolute;*/
@@ -195,6 +198,10 @@ textarea {
     border: none;
     outline: none;
     box-shadow: none;
+}
+
+button:focus {
+    outline: none;
 }
 
 body,
@@ -342,9 +349,39 @@ p {
 }
 
 
+#post-28 > div {
+    margin-bottom: 0;
+}
+
+#post-10 > div {
+    margin-bottom: 0
+}
+
+.elementor-10 .elementor-element.elementor-element-03e337c {
+    margin-bottom: 0;
+}
 
 
 
+
+/*----FAQ---*/
+
+#post-16 > div > h1 {
+
+    text-align: left;
+}
+
+/*.skilt {
+    margin-top: 20px;
+}*/
+
+/*.wp-block-column .size-large .skilt {
+    margin-top: 20px;
+}*/
+
+#post-16 > div > div:nth-child(3) > div:nth-child(2) > figure > img {
+    margin-top: 20px;
+}
 
 /*-------------mobil----------------------------------------*/
 @media (max-width: 376px) {
@@ -405,6 +442,12 @@ p {
         margin-top: 77px;
     }
 
+    /*---video---*/
+
+    #myVideo {
+        height: 100vh;
+    }
+
 
     /*----produgt billeder---*/
 
@@ -456,6 +499,8 @@ p {
         margin-bottom: 4rem;
         position: relative;
     }
+
+    /* ---knapper---*/
 
     .infoknap {
         position: absolute;
@@ -627,7 +672,13 @@ p {
 
     }
 
+    /*---forside--*/
 
+    /* .forside .elementor*/
+    #post-28 > div > div {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
 }
 
