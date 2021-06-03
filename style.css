@@ -183,7 +183,7 @@ textarea {
 }
 
 
-.tilbageknap:hover {
+.content-area_single .tilbageknap:hover {
     color: #D57A72;
     border: none;
     box-shadow: none;
