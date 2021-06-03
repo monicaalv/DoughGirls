@@ -617,15 +617,7 @@ p {
 @media (min-width: 400px) {
 
 
-    /*---vido---*/
 
-
-
-    /*    --header--*/
-    /*  .site-header {
-      background-color: #edd97e;
-      box-shadow: none;
-  }*/
 
     /*--logo--*/
 
@@ -843,11 +835,13 @@ p {
 
 
     .content-area_single article {
-        margin-top: 5px;
+        margin-top: 15px;
     }
 
 
-
+    .content-area_single article h3 {
+        padding-left: 0px;
+    }
 
 
 
