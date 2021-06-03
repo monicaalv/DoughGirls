@@ -472,8 +472,14 @@ p {
         margin-left: 43px;
     }
 
-    .footer-1 h2 {
+    /* .footer-1 h2 {
+     text-align: left;
+ }*/
+
+    #footer-widgets h2 {
+
         text-align: left;
+        margin-left: 43px;
     }
 
     /*   ---------------------- OM OS--------------------------------------*/
@@ -616,7 +622,7 @@ p {
 
 
     /*    --header--*/
-  /*  .site-header {
+    /*  .site-header {
       background-color: #edd97e;
       box-shadow: none;
   }*/
@@ -852,12 +858,12 @@ p {
 @media (min-width: 800px) {
 
 
-.site-header.header-fixed {
-  /*  top: 0px;
+    .site-header.header-fixed {
+        /*  top: 0px;
   left: -3px;
   position: fixed;*/
-    padding-right: 20px;
-}
+        padding-right: 20px;
+    }
 
 
     /* ---logo--*/
@@ -879,7 +885,7 @@ p {
     }
 
     /*---header---*/
-/*    .site-header {
+    /*    .site-header {
         background-color: #edd97e;
         box-shadow: none;
     }*/
