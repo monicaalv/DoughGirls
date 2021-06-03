@@ -291,7 +291,14 @@ p {
 
 #footer-widgets {
     padding: 0;
+
 }
+
+.site-content {
+    margin-bottom: -30px;
+}
+
+
 
 #footer-widgets h2 {
     margin-top: 30px;
@@ -966,7 +973,7 @@ p {
     .piskeRis {
         width: 40%;
         margin-left: 508px;
-        margin-top: -484px;
+        margin-top: 0px;
         margin-bottom: 256px;
     }
 
