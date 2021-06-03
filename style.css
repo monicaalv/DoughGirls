@@ -724,9 +724,12 @@ p {
     }
 
     #footer-widgets h2 {
-        margin-top: 30px;
-        margin-left: -19px;
+        margin-left: 0px;
+        text-align: left;
+        padding-left: 0px;
+
     }
+
 
 
 
@@ -845,6 +848,12 @@ p {
     .content-area_single article {
         margin-top: 5px;
     }
+
+
+
+
+
+
 
 
 }
