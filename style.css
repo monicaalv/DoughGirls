@@ -667,6 +667,8 @@ p {
         margin-top: 3.5rem;
     }
 
+
+
     h2,
     .pris {
         text-align: center;
@@ -895,13 +897,16 @@ p {
         font-size: 1.1rem;
     }
 
-
+    .forsideJa .forside p {
+        margin-left: -2px;
+        margin-right: -2px;
+    }
 
 
 
     /* .infoknap {}*/
 
-    /*--Om Os---*/
+    /*------------Om Os--------------*/
 
     .elementor *,
     .elementor ::after,
@@ -924,6 +929,52 @@ p {
         margin-left: 37px;
     }
 
+
+
+    /*  ------CAFE------------------- */
+
+
+    .entry-content h1 {
+        margin-left: 100px;
+    }
+
+    .entry-content h2 {
+        margin-left: 100px;
+        padding-left: 20px;
+    }
+
+    .entry-content h3 {
+        margin-left: 100px;
+    }
+
+    .entry-content p {
+
+        margin: 20px;
+        margin-left: 100px;
+    }
+
+    .wp-block-column .cafe2 {
+        margin-left: 100px;
+
+    }
+
+    .kaffeKop,
+        {
+        width: 50%;
+    }
+
+    .piskeRis {
+        width: 40%;
+        margin-left: 508px;
+        margin-top: -484px;
+        margin-bottom: 256px;
+    }
+
+
+
+
+
+
     /*---footer--*/
 
     .sidebar .widget .widget-title {
@@ -938,6 +989,10 @@ p {
     #footer-1,
     #menu-footermenu {
         margin-left: 112px;
+    }
+
+    #footer-widgets h2 {
+        margin-left: -19px;
     }
 
     /*---singleview---*/
