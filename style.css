@@ -321,8 +321,10 @@ p {
     padding: 0;
 
 }
-
-
+/*--gul footer--*/
+#footer-2 {
+    margin-bottom: -20px;
+}
 
 
 #footer-widgets h2 {
@@ -428,7 +430,7 @@ p {
         margin-top: 60px;
     }
 
-/*--første billedet i filtrering--*/
+    /*--første billedet i filtrering--*/
     #doughnutcontainer article:nth-child(1) img {
         margin-top: 60px;
     }
