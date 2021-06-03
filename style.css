@@ -371,13 +371,16 @@ p {
     text-align: left;
 }
 
-/*.skilt {
-    margin-top: 20px;
-}*/
+/*--tekst i FAQ skema--*/
 
-/*.wp-block-column .size-large .skilt {
-    margin-top: 20px;
-}*/
+
+#sp-ea-836 h3 {
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+
+/*--billede--*/
 
 #post-16 > div > div:nth-child(3) > div:nth-child(2) > figure > img {
     margin-top: 20px;
