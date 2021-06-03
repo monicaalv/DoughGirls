@@ -50,6 +50,9 @@ Description: Stylish Child Theme Based on One Press
 
 }
 
+/*--nav valgt--*/
+
+
 /*---wp padding----*/
 
 .container {
@@ -88,6 +91,13 @@ Description: Stylish Child Theme Based on One Press
     position: relative;
     display: none;
 }
+
+
+/*---rosa bagrundsfarve--*/
+#post-28 > div > div > div > section.has_ma_el_bg_slider.elementor-section.elementor-top-section.elementor-element.elementor-element-54670bb.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div {
+    padding-bottom: 48px;
+}
+
 
 
 /*//baggrundsfarve//*/
@@ -160,9 +170,18 @@ textarea {
 
 }
 
-#filtrering,
-.border-radius: 12px;
-margin-left: 50px;
+#filtrering {
+    margin: auto;
+    text-align: center;
+}
+
+
+
+#filtrering .filter:hover {
+    color: #D57A72;
+    text-decoration: underline;
+}
+
 
 margin-right: 50px valgt {
     float: none;
