@@ -142,9 +142,7 @@ textarea {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.1rem;
     line-height: 1.7;
-    /*   color: #fcf8f2;
-
-   background-color: #fcf8f2;*/
+    /*    ---------?????*/
 
 }
 
@@ -268,16 +266,6 @@ p {
 }
 
 
-/*----boks doughnuts-----*/
-/*.site-content article {
-    margin: 10px;
-    margin-bottom: 30px;
-    padding: 30px;
-    border-radius: 5px;
-
-    background-color: #E5B29E;
-
-}*/
 
 
 /*---overskrift---*/
@@ -288,6 +276,41 @@ p {
     margin-bottom: -1.5rem;
     font-weight: bold;
 }
+
+/*--styling doughnuts filtrering--*/
+
+/*--billeder filrering--*/
+#doughnutcontainer article img {
+    height: auto;
+    /*max-width: 80%;*/
+    max-width: 100%;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+/*--tekst filtrering--*/
+article {
+    text-align: center;
+    background-color: #E5B29E;
+    border-radius: 5px;
+    width: 80%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article h2 {
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+
+
+
 
 /*    ----singleview----*/
 
@@ -431,6 +454,12 @@ p {
         margin-top: 60px;
     }
 
+    /*    --rosa boks donut--*/
+    .donut article {
+        padding-bottom: 5px;
+    }
+
+
     /*--første billedet i filtrering--*/
     #doughnutcontainer article:nth-child(1) img {
         margin-top: 60px;
@@ -535,6 +564,7 @@ p {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         text-align: center;
+        margin-top: 5px;
     }
 
 
@@ -715,6 +745,7 @@ p {
 
 
 
+
     /*--logo--*/
 
     .site-logo-div img {
@@ -788,6 +819,13 @@ p {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         text-align: center;
+    }
+
+
+    /*   --gap mellem billeder filtrering--*/
+
+    .content-area #doughnutcontainer {
+        column-gap: 0;
     }
 
 
@@ -953,39 +991,46 @@ p {
 
 @media (min-width: 800px) {
 
+    /*styling test*/
 
     /*--billeder filrering--*/
-    #doughnutcontainer article img {
+    /*    #doughnutcontainer article img {
         height: auto;
-        /*max-width: 80%;*/
+        max-width: 80%;--
         max-width: 100%;
         border-radius: 5px;
-    }
+
+    }*/
 
     /*--tekst filtrering--*/
-    article {
+    /*    article {
         text-align: center;
-        background-color: lightpink;
+        background-color: #E5B29E;
         border-radius: 5px;
-    }
+        width: 80%;
+        align-content: center;
+    }*/
 
-    article h2 {
+    /*    article h2 {
         font-size: 1rem;
         padding-left: 20px;
         padding-right: 20px;
 
-    }
+    }*/
+
+
+    /*   --gap mellem billeder filtrering--*/
 
 
 
-
-    /*   --gap mellem billeder--*/
-
-    .content-area #doughnutcontainer {
+    /* .content-area #doughnutcontainer {
         column-gap: 0;
     }
+*/
 
+    /*    styling test slut*/
 
+    /* --header--*/
     .site-header.header-fixed {
         padding-right: 20px;
     }
