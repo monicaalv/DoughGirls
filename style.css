@@ -47,10 +47,11 @@ Description: Stylish Child Theme Based on One Press
     zoom: 1;
     letter-spacing: 1px;
     margin-top: 29px;
+
 }
 
 /*---wp padding----*/
-/*--video--*/
+
 .container {
     padding-right: 0;
     padding-left: 0;
@@ -99,11 +100,6 @@ Description: Stylish Child Theme Based on One Press
     background: #fcf8f2;
 }
 
-/*//shadow//*/
-.site-header {
-    background-color: #fcf8f2;
-    box-shadow: none;
-}
 
 /*//strej//*/
 .site-content {
@@ -469,21 +465,16 @@ p {
 
 
 
-
+    /*---footer--*/
 
 
     #menu-footermenu {
         margin-left: 43px;
     }
 
-    /*    .sidebar .widget .widget-title {
-        font-size: 15px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        margin-bottom: 20px;
-        font-weight: 700;
-        margin-left: -159px;
-    }*/
+    .footer-1 h2 {
+        text-align: left;
+    }
 
     /*   ---------------------- OM OS--------------------------------------*/
     /*   ---om os ikoner---
@@ -625,10 +616,10 @@ p {
 
 
     /*    --header--*/
-    .site-header {
-        background-color: #edd97e;
-        box-shadow: none;
-    }
+  /*  .site-header {
+      background-color: #edd97e;
+      box-shadow: none;
+  }*/
 
     /*--logo--*/
 
@@ -726,7 +717,10 @@ p {
         margin-left: 56px;
     }
 
-
+    #footer-widgets h2 {
+        margin-top: 30px;
+        margin-left: -19px;
+    }
 
 
 
@@ -799,15 +793,6 @@ p {
         margin-left: 58px;
     }
 
-    /*----footer---*/
-    .footer-widgets .container {
-        margin: 20px;
-    }
-
-    .footer-widgets .row .widget-title {
-        text-align: left;
-        margin-left: 2px;
-    }
 
     /*    ---vores cafe----*/
 
@@ -867,7 +852,12 @@ p {
 @media (min-width: 800px) {
 
 
-
+.site-header.header-fixed {
+  /*  top: 0px;
+  left: -3px;
+  position: fixed;*/
+    padding-right: 20px;
+}
 
 
     /* ---logo--*/
@@ -889,10 +879,10 @@ p {
     }
 
     /*---header---*/
-    .site-header {
+/*    .site-header {
         background-color: #edd97e;
         box-shadow: none;
-    }
+    }*/
 
 
     h2 {
@@ -998,9 +988,17 @@ p {
         margin-left: 112px;
     }
 
-    #footer-widgets h2 {
-        margin-left: -19px;
+
+    .footer-widgets .container {
+        margin: 20px;
     }
+
+    .footer-widgets .row h2 {
+        text-align: left;
+        margin-left: 2px;
+    }
+
+
 
     /*---singleview---*/
 
