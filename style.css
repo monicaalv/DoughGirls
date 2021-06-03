@@ -326,6 +326,25 @@ p {
 
 
 
+.sp-easy-accordion .sp-ea-single .ea-header {
+    margin-bottom: -15px;
+    margin-top: -40px;
+}
+
+.entry-content h3 {
+    padding-top: 43px;
+}
+
+.sp-easy-accordion .sp-ea-single {
+    border-radius: 12px;
+    margin-left: 50px;
+    margin-right: 50px
+}
+
+
+
+
+
 
 /*-------------mobil----------------------------------------*/
 @media (max-width: 376px) {
