@@ -46,15 +46,16 @@ do_action( 'onepress_page_before_content' );
 
 
             <script>
+                /* --global variabel--*/
                 let doughnut;
 
-
+                /*--definerer en konstant, og henter data fra url--*/
                 const dbUrl = "http://monicaamundsen.com/kea/10_eksamen/doughgirls/wp-json/wp/v2/doughnut/" + <?php echo get_the_ID() ?>;
 
 
 
 
-
+                /* --fetcher data fra json--*/
                 async function getJson() {
                     const data = await fetch(dbUrl);
                     doughnut = await data.json();
@@ -64,7 +65,7 @@ do_action( 'onepress_page_before_content' );
                 }
 
 
-
+                /*--peger på elementerne i html, henter indhold gennem id--*/
                 function visDoughnut() {
                     console.log(doughnut.billede.guid);
 
@@ -75,7 +76,7 @@ do_action( 'onepress_page_before_content' );
                     document.querySelector(".beskrivelse").textContent = doughnut.beskrivelse;
                     document.querySelector(".ingredienser").textContent = doughnut.ingredienser;
 
-                    document.querySelector("button").addEventListener("click", tilbageTilProdugtside);
+                    document.querySelector("button").addEventListener("click", tilbageTilProduktside);
 
 
                 }
@@ -83,10 +84,11 @@ do_action( 'onepress_page_before_content' );
 
 
 
-
-                function tilbageTilProdugtside() {
+                /*--tilbage til produktside--*/
+                function tilbageTilProduktside() {
                     history.back();
                 }
+
 
                 getJson();
 
