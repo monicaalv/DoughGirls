@@ -290,7 +290,7 @@ p {
 }
 
 /*--tekst filtrering--*/
-article {
+.donut article {
     text-align: center;
     background-color: #E5B29E;
     border-radius: 5px;
@@ -411,7 +411,7 @@ article h2 {
 
 /*----FAQ---*/
 
-#post-16 > div > h1 {
+#post-16 div h1 {
 
     text-align: left;
 }
