@@ -30,6 +30,7 @@ Description: Stylish Child Theme Based on One Press
 
 
 /* ---nav---*/
+/* ----navigationsknapper---*/
 
 .onepress-menu a {
     color: #333333;
@@ -45,6 +46,13 @@ Description: Stylish Child Theme Based on One Press
     margin-top: 29px;
 
 }
+
+
+.onepress-menu {
+    padding-right: 43px;
+    padding-top: 10px;
+}
+
 
 /*--nav valgt--*/
 
@@ -212,7 +220,7 @@ textarea {
     font-size: 0.9rem;
     padding-left: 11px;
     padding-right: 11px;
-     padding-top: 4px;
+    padding-top: 4px;
     padding-bottom: 4px;
     background-color: #4b6e4d;
     color: #fcf8f2;
@@ -505,10 +513,6 @@ article h2 {
     }
 
 
-    /* ----navigationsknapper---*/
-    .onepress-menu {
-        padding-right: 43px;
-    }
 
 
     /*---forside ikoner----*/
@@ -1033,7 +1037,7 @@ article h2 {
 
     /* --header--*/
     .site-header.header-fixed {
-        padding-right: 20px;
+        padding-right: 50px;
     }
 
 
