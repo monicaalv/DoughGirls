@@ -23,7 +23,7 @@ Description: Stylish Child Theme Based on One Press
     width: 100%;
     overflow: hidden;
     display: block;
-    height: 480px;
+    height: 333px;
     margin: 0;
     padding: 0;
 }
@@ -132,6 +132,10 @@ a:active {
     margin-bottom: 80px;
 }
 
+/*--ingen gap under nav--*/
+.main-navigation .onepress-menu {
+    background: none;
+}
 
 /*//strej//*/
 .site-content {
@@ -520,7 +524,9 @@ article h2 {
     }
 
 
-
+    .forside h1 {
+        padding-top: 10px;
+    }
 
     /*---forside ikoner----*/
     .elementor-28 .elementor-element.elementor-element-fb6a8c8 img {
@@ -549,8 +555,10 @@ article h2 {
     /*---video---*/
 
     #myVideo {
-        height: 100vh;
+        /* height: 100vh;*/
+        height: 50vh;
     }
+
 
 
     /*----produgt billeder---*/
@@ -787,6 +795,19 @@ article h2 {
         margin-top: 25px;
         margin-left: 86px;
         margin-bottom: 10px;
+    }
+
+    /*--video--*/
+
+    #myVideo {
+        height: 80vh;
+
+    }
+
+    .containerVideo {
+
+        height: 468px;
+
     }
 
     /*----hamburger--*/
@@ -1040,6 +1061,18 @@ article h2 {
 
 @media (min-width: 800px) {
 
+    /*--video--*/
+
+    #myVideo {
+        height: 100vh;
+
+    }
+
+    .containerVideo {
+
+        height: 468px;
+
+    }
 
 
     /* --header--*/
