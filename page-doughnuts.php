@@ -30,7 +30,7 @@ do_action( 'onepress_page_before_content' );
 
                     <img class="billede" src="" alt="">
                     <h2 class="navn"></h2>
-                    <img clas="ikon" src="" alt="ikon">
+                    <!--<img clas="ikon" src="" alt="ikon">-->
                     <p class="pris"></p>
                     <div class="info-container">
                         <button class="infoknap" type="infoknap">Læs mere</button>
