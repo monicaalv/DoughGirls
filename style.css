@@ -360,7 +360,8 @@ article h2 {
     padding: 30px;
     border-radius: 5px;
     background-color: #E5B29E;
-
+    margin-left: 120px;
+    margin-right: 120px;
 
 }
 
@@ -370,14 +371,21 @@ article h2 {
 }
 
 
-.content-area_single article .tilbageknap {
-    margin-top: 16px;
-
-}
-
 .content-area_single article h3 {
     margin-top: 35px;
     font-size: 1.2rem;
+}
+
+.content-area_single article .left {
+    display: grid;
+}
+
+.content-area_single article img {
+    width: 60%;
+    max-width: 100%;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -1028,6 +1036,7 @@ article h2 {
         padding-left: 20px;
     }
 
+
     /*    ----singleview----*/
 
 
@@ -1038,6 +1047,12 @@ article h2 {
 
     .content-area_single article h3 {
         padding-left: 0px;
+    }
+
+
+
+    #doughnutcontainer > article > h2 {
+        margin-top: 20px;
     }
 
 
