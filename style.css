@@ -155,13 +155,13 @@ textarea {
 
 
 #filtrering .filter:hover {
-    color: #D57A72;
+    color: #d9967d;
     text-decoration: underline;
 
 }
 
 #filtrering .filter:active {
-    color: #D57A72;
+    color: #d9967d;
     text-decoration: underline;
 
 }
@@ -171,7 +171,7 @@ textarea {
 
 
 .valgt {
-    color: #D57A72;
+    color: #d9967d;
     text-decoration: underline;
     border: none;
     outline: none;
@@ -221,7 +221,7 @@ textarea {
 
 
 .content-area_single .tilbageknap:hover {
-    color: #D57A72;
+    color: #d9967d;
     border: 1.5px solid #4b6e4d;
     /*border: none;*/
     box-shadow: none;
@@ -230,7 +230,7 @@ textarea {
 /*--bestil online knap--*/
 
 .content-area_single .bestil:hover {
-    color: #D57A72;
+    color: #d9967d;
     border: 1.5px solid #4b6e4d;
     /*border: none;*/
     box-shadow: none;
@@ -243,7 +243,7 @@ textarea {
 /*--læs mere knap--*/
 
 .info-container .infoknap:hover {
-    color: #D57A72;
+    color: #d9967d;
     /* border: none;*/
     box-shadow: none;
     border: 1.5px solid #4b6e4d;
@@ -270,7 +270,7 @@ h1 {
 h2,
 h3,
 navn {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-weight: 300;
 
 }
@@ -334,7 +334,7 @@ article h2 {
     margin: 60px;
     padding: 30px;
     border-radius: 5px;
-    background-color: #E5B29E;
+    background-color: #d9967d;
     margin-left: 120px;
     margin-right: 120px;
 
@@ -398,14 +398,10 @@ article h2 {
 }
 
 /*--kontakt/job----*/
+/*--footer--*/
 #menu-footermenu {
     font-weight: 500;
 }
-
-
-
-
-
 
 #post-28 > div {
     margin-bottom: 0;
@@ -556,23 +552,6 @@ article h2 {
 
     }
 
-    /*--første produgt billede---*/
-    /*img mini_doughnuts {
-    margin-top: 38px;
-}*/
-
-    /*img:nth-child(1) {
-    margin-top: 30px;
-}*/
-
-    /* #filtrering {
-        margin: auto;
-        width: 80%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 2vw;
-        margin-bottom: 3rem;
-    }*/
 
     h2 {
         font-size: 1.5rem;
@@ -652,8 +631,6 @@ article h2 {
         margin-top: 10px;
     }
 
-
-
     /* --- wp padding---*/
 
     .entry-content > * {
@@ -665,11 +642,6 @@ article h2 {
         padding-bottom: 0;
     }
 
-    /*.wp-image-243 {
-        max-width: 100%;
-        width: 70%;
-    }
-*/
 
     .wp-block-column .fam_ikon img {
         max-width: 100%;
@@ -720,10 +692,6 @@ article h2 {
     }
 
     .wp-block-column .pose_ikon img {
-        /*    max-width: 100%;
-        width: 25%;
-        padding-top: 14px;
-        margin-bottom: -21px;*/
         display: none;
     }
 
@@ -1065,44 +1033,7 @@ article h2 {
 
 @media (min-width: 800px) {
 
-    /*styling test*/
 
-    /*--billeder filrering--*/
-    /*    #doughnutcontainer article img {
-        height: auto;
-        max-width: 80%;--
-        max-width: 100%;
-        border-radius: 5px;
-
-    }*/
-
-    /*--tekst filtrering--*/
-    /*    article {
-        text-align: center;
-        background-color: #E5B29E;
-        border-radius: 5px;
-        width: 80%;
-        align-content: center;
-    }*/
-
-    /*    article h2 {
-        font-size: 1rem;
-        padding-left: 20px;
-        padding-right: 20px;
-
-    }*/
-
-
-    /*   --gap mellem billeder filtrering--*/
-
-
-
-    /* .content-area #doughnutcontainer {
-        column-gap: 0;
-    }
-*/
-
-    /*    styling test slut*/
 
     /* --header--*/
     .site-header.header-fixed {
@@ -1154,7 +1085,7 @@ article h2 {
     .elementor ::before {
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
-        /* margin-bottom: 79px;*/
+         margin-bottom: 79px;
     }
 
     .has-text-align-center {
@@ -1175,43 +1106,41 @@ article h2 {
     /*  ------CAFE------------------- */
 
 
-    .entry-content h1 {
-        margin-left: 100px;
-    }
+.entry-content h1 {
+    margin-left: 100px;
+}
 
-    .entry-content h2 {
-        margin-left: 100px;
-        padding-left: 20px;
-    }
+.entry-content h2 {
+    margin-left: 100px;
+    padding-left: 20px;
+}
 
-    .entry-content h3 {
-        margin-left: 100px;
-    }
+.entry-content h3 {
+    margin-left: 100px;
+}
 
-    .entry-content p {
+.entry-content p {
 
-        margin: 20px;
-        margin-left: 100px;
-    }
+    margin: 20px;
+    margin-left: 100px;
+}
 
-    .wp-block-column .cafe2 {
-        margin-left: 100px;
+.wp-block-column .cafe2 {
+    margin-left: 100px;
 
-    }
+}
 
-    .kaffeKop,
-        {
-        width: 50%;
-    }
+.kaffeKop,
+    {
+    width: 50%;
+}
 
-    .piskeRis {
-        width: 40%;
-        margin-left: 508px;
-        margin-top: 0px;
-        margin-bottom: 256px;
-    }
-
-
+.piskeRis {
+    width: 40%;
+    margin-left: 508px;
+    margin-top: 0px;
+    margin-bottom: 256px;
+}
 
 
 

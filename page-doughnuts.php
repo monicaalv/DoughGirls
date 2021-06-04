@@ -133,7 +133,7 @@ do_action( 'onepress_page_before_content' );
                             /*--kloner indhold med id--*/
                             klon.querySelector("h2").textContent = doughnut.title.rendered;
                             klon.querySelector(".billede").src = doughnut.billede.guid;
-                            klon.querySelector(".ikon").src = doughnut.ikon.ikon;
+                            /*klon.querySelector(".ikon").src = doughnut.ikon.ikon;*/
 
                             klon.querySelector(".pris").textContent = `${"Pris: "}` + doughnut.pris + `${",-"}`;
 
