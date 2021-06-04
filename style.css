@@ -228,9 +228,7 @@ textarea {
 .infoknap,
 .tilbageknap,
 .bestil {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    /*left: 50%;*/
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -245,6 +243,10 @@ textarea {
     background-color: #4b6e4d;
     color: #fcf8f2;
 
+}
+
+.centering_buttons {
+    text-align: center;
 }
 
 .content-area_single .tilbageknap:hover {

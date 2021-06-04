@@ -28,16 +28,17 @@ do_action( 'onepress_page_before_content' );
                         <img class="pic" src="" alt="">
                     </div>
                     <div class="right">
-                        <h2 class="navn"></h2>
-                        <p class="pris"></p>
-                        <p class="beskrivelse"></p>
-                        <h3>Ingredienser</h3>
-                        <p class="ingredienser"></p>
-                        <div class="info-container">
-                            <button class="tilbageknap" type="tilbageknap">Tilbage</button>
+                        <div>
+                            <h2 class="navn"></h2>
+                            <p class="pris"></p>
+                            <p class="beskrivelse"></p>
+                            <h3>Ingredienser</h3>
+                            <p class="ingredienser"></p>
                         </div>
-                        <div class="bestil-container">
-                            <button class="bestil" type="bestil">Bestil online</button>
+                        <div class="centering_buttons">
+                            <button class="bestil bestil-container" type="bestil">Bestil online</button>
+                            <button class="tilbageknap info-container" type="tilbageknap">Tilbage</button>
+
                         </div>
                     </div>
                 </article>
