@@ -26,8 +26,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat:wght@500&family=Fjalla+One&family=Indie+Flower&family=Kalam:wght@300&family=Pacifico&family=Quicksand:wght@300&family=Satisfy&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body <?php body_class(); ?>>
