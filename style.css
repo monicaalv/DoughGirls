@@ -148,7 +148,7 @@ Description: Stylish Child Theme Based on One Press
     margin-right: 28px;
 }
 
-/* ---knapper--*/
+/* --- alle filtrerings knapper--*/
 body,
 button,
 input,
@@ -157,9 +157,66 @@ textarea {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.1rem;
     /*line-height: 1.7;*/
+}
 
+
+#filtrering {
+    margin: auto;
+    text-align: center;
+}
+
+
+
+#filtrering .filter:hover {
+    color: #D57A72;
+    text-decoration: underline;
 
 }
+
+
+/*.margin-right: 50px .valgt {
+    float: none;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 20px;
+}*/
+
+
+
+
+
+
+.valgt {
+    color: #D57A72;
+    text-decoration: underline;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    color: black;
+    border: none;
+    background-color: #fcf8f2;
+}
+
+
 
 /*--tilbageknap--*/
 .infoknap,
@@ -190,35 +247,6 @@ textarea {
     box-shadow: none;
 }
 
-
-
-
-
-#filtrering {
-    margin: auto;
-    text-align: center;
-}
-
-
-
-#filtrering .filter:hover {
-    color: #D57A72;
-    text-decoration: underline;
-
-}
-
-
-.margin-right: 50px .valgt {
-    float: none;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    margin-top: 20px;
-}
-
 /*--læs mere knap--*/
 
 .info-container .infoknap:hover {
@@ -229,33 +257,6 @@ textarea {
 }
 
 
-
-
-.valgt {
-    color: #D57A72;
-    text-decoration: underline;
-    border: none;
-    outline: none;
-    box-shadow: none;
-}
-
-button:focus {
-    outline: none;
-}
-
-body,
-button,
-input,
-select,
-textarea {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
-    font-size: 1.1rem;
-    line-height: 1.2;
-    color: black;
-    border: none;
-    background-color: #fcf8f2;
-}
 
 
 
@@ -338,16 +339,18 @@ article h2 {
 
 .content-area_single article {
     margin: 60px;
-
     padding: 30px;
     border-radius: 5px;
     background-color: #E5B29E;
+
 
 }
 
 .content-area_single article h2 {
     margin-top: 38px;
+
 }
+
 
 .content-area_single article .tilbageknap {
     margin-top: 16px;

@@ -36,6 +36,9 @@ do_action( 'onepress_page_before_content' );
                         <div class="info-container">
                             <button class="tilbageknap" type="tilbageknap">Tilbage</button>
                         </div>
+                        <div class="bestil-container">
+                            <button class="bestil" type="bestil">Bestil online</button>
+                        </div>
                     </div>
                 </article>
             </main><!-- #main -->
