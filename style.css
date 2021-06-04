@@ -984,8 +984,10 @@ article h2 {
 
     /*---FAQ--*/
 
-
-
+    .fak .wp-block-image img {
+        padding-top: 63px;
+        width: 80%;
+    }
 
 
 
