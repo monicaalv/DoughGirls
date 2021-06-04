@@ -1064,6 +1064,13 @@ article h2 {
         margin-top: 20px;
     }
 
+    /*  --knapper--*/
+
+    .centering_buttons {
+        margin-top: 0;
+        margin-left: 70px;
+    }
+
 
     /*---FAQ--*/
 
@@ -1298,6 +1305,15 @@ article h2 {
         margin: 10px;
 
     }
+
+    /*--knapper--*/
+
+    .centering_buttons {
+        margin-top: 0;
+        margin-left: 70px;
+    }
+
+
 
     /* ---FAQ dropdown--*/
 
