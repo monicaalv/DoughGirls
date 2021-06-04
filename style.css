@@ -87,8 +87,8 @@ a:active {
 .elementor-column-gap-default > .elementor-column > .elementor-element-populated {
     padding: 10px;
     padding-top: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
+    /*    padding-right: 10px;
+    padding-left: 10px;*/
     /*padding-top: 66px;*/
     padding-left: 21px;
     padding-right: 28px;
@@ -442,7 +442,6 @@ article h2 {
 /*----FAQ---*/
 
 #post-16 div h1 {
-
     text-align: left;
 }
 
@@ -453,9 +452,9 @@ article h2 {
 /*--tekst i FAQ drop down--*/
 
 
-#sp-ea-836 h3 {
-    font-size: 18px;
-    padding-bottom: 30px;
+
+.sp-easy-accordion .sp-ea-single .ea-header a {
+    font-size: 15px;
 }
 
 /*--faq drop down box--*/
@@ -1049,6 +1048,13 @@ article h2 {
         width: 80%;
     }
 
+    /*--tekst i FAQ drop down--*/
+
+
+
+    .sp-easy-accordion .sp-ea-single .ea-header a {
+        font-size: 15px;
+    }
 
 
 }
@@ -1268,5 +1274,16 @@ article h2 {
         margin-right: 68px;
         margin-left: 70px;
     }
+
+
+    /*--tekst i FAQ drop down--*/
+
+
+
+    .sp-easy-accordion .sp-ea-single .ea-header a {
+        font-size: 20px;
+    }
+
+
 
 }
