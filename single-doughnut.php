@@ -76,7 +76,7 @@ do_action( 'onepress_page_before_content' );
                     document.querySelector(".beskrivelse").textContent = doughnut.beskrivelse;
                     document.querySelector(".ingredienser").textContent = doughnut.ingredienser;
 
-                    document.querySelector("button").addEventListener("click", tilbageTilProduktside);
+                    document.querySelector(".tilbageknap").addEventListener("click", tilbageTilProduktside);
 
 
                 }
