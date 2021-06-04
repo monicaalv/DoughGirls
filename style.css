@@ -1249,8 +1249,8 @@ article h2 {
 
     .content-area_single .pic {
         max-width: 100%;
-        width: 80%;
-
+        width: 90%;
+        padding-top: 23px;
         margin: 10px;
 
     }
