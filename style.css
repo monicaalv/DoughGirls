@@ -53,6 +53,21 @@ Description: Stylish Child Theme Based on One Press
 /*--nav valgt--*/
 
 
+
+/*.onepress-menu .active > a {
+    color: #d9967d;
+}*/
+
+/*
+#menu-item-22:active {
+    color: #d9967d;
+}*/
+
+.onepress-menu a:active {
+    color: #d9967d;
+}
+
+
 /*---wp padding----*/
 
 .container {
@@ -141,11 +156,12 @@ select,
 textarea {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.1rem;
-    line-height: 1.7;
-    /*    ---------?????*/
+    /*line-height: 1.7;*/
+
 
 }
 
+/*--tilbageknap--*/
 .infoknap,
 .tilbageknap {
     position: absolute;
@@ -160,13 +176,23 @@ textarea {
     font-size: 0.9rem;
     padding-left: 11px;
     padding-right: 11px;
-    padding-top: 4px;
+    /* padding-top: 4px;*/
     padding-bottom: 4px;
-    /*background-color: #4b6e4d;*/
     background-color: #4b6e4d;
     color: #fcf8f2;
 
 }
+
+.content-area_single .tilbageknap:hover {
+    color: #D57A72;
+    border: 1.5px solid #4b6e4d;
+    /*border: none;*/
+    box-shadow: none;
+}
+
+
+
+
 
 #filtrering {
     margin: auto;
@@ -178,13 +204,12 @@ textarea {
 #filtrering .filter:hover {
     color: #D57A72;
     text-decoration: underline;
+
 }
 
 
-margin-right: 50px valgt {
+.margin-right: 50px .valgt {
     float: none;
-
-    /*position: absolute;*/
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -192,22 +217,19 @@ margin-right: 50px valgt {
     transform: translate(-50%, -50%);
     text-align: center;
     margin-top: 20px;
-    /* column-gap: 7px;
-        /* display: flex;*/
 }
+
+/*--læs mere knap--*/
 
 .info-container .infoknap:hover {
     color: #D57A72;
-    border: none;
+    /* border: none;*/
     box-shadow: none;
+    border: 1.5px solid #4b6e4d;
 }
 
 
-.content-area_single .tilbageknap:hover {
-    color: #D57A72;
-    border: none;
-    box-shadow: none;
-}
+
 
 .valgt {
     color: #D57A72;
@@ -465,6 +487,9 @@ article h2 {
         margin: auto;
         margin-top: 60px;
     }
+
+
+
 
     /*    --rosa boks donut--*/
     .donut article {
