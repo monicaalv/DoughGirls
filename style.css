@@ -292,7 +292,7 @@ p {
 /*--tekst filtrering--*/
 .donut article {
     text-align: center;
-    background-color: #E5B29E;
+    background-color: #D9967D7A;
     border-radius: 5px;
     width: 80%;
     align-content: center;
@@ -378,20 +378,7 @@ article h2 {
 
 
 
-.sp-easy-accordion .sp-ea-single .ea-header {
-    margin-bottom: -15px;
-    margin-top: -40px;
-}
 
-.entry-content h3 {
-    padding-top: 43px;
-}
-
-.sp-easy-accordion .sp-ea-single {
-    border-radius: 12px;
-    margin-left: 50px;
-    margin-right: 50px
-}
 
 
 #post-28 > div {
@@ -420,7 +407,7 @@ article h2 {
     padding-left: 20px;
 }
 
-/*--tekst i FAQ skema--*/
+/*--tekst i FAQ drop down--*/
 
 
 #sp-ea-836 h3 {
@@ -428,6 +415,24 @@ article h2 {
     padding-bottom: 30px;
 }
 
+/*--faq drop down box--*/
+
+
+
+.sp-easy-accordion .sp-ea-single .ea-header {
+    margin-bottom: -15px;
+    margin-top: -40px;
+}
+
+.entry-content h3 {
+    padding-top: 43px;
+}
+
+.sp-easy-accordion .sp-ea-single {
+    border-radius: 12px;
+    margin-left: 50px;
+    margin-right: 50px
+}
 
 /*--billede--*/
 
@@ -435,7 +440,10 @@ article h2 {
     margin-top: 20px;
 }
 
-/*-------------mobil----------------------------------------*/
+
+
+
+/*---------------------------------------mobil----------------------------------------*/
 @media (max-width: 376px) {
 
     /*--logo--*/
@@ -1216,6 +1224,15 @@ article h2 {
 
     }
 
+    /* ---FAQ dropdown--*/
 
+
+    /*--faq drop down box--*/
+
+    #post-16 div div:nth-child(4) div {
+
+        margin-right: 68px;
+        margin-left: 70px;
+    }
 
 }
