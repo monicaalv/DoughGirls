@@ -49,18 +49,25 @@ Description: Stylish Child Theme Based on One Press
 
 
 .onepress-menu {
-    padding-right: 43px;
+    padding-right: 30px;
     padding-top: 10px;
 }
 
 
 /*--nav valgt--*/
 
+a:active {
+    background-color: #d9967d;
+}
 
+/*#menu-item-1459 > .active a {
+    color: #d9967d;
+}*/
 
+/*
 .onepress-menu a:active {
     color: #d9967d;
-}
+}*/
 
 
 /*---wp padding----*/
@@ -287,7 +294,7 @@ navn {
 p {
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
-    line-height: 22px;
+    line-height: 30px;
 }
 
 
