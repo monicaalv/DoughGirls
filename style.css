@@ -43,14 +43,14 @@ Description: Stylish Child Theme Based on One Press
     text-decoration: none;
     zoom: 1;
     letter-spacing: 1px;
-    margin-top: 29px;
+    margin-top: 20px;
 
 }
 
 
 .onepress-menu {
     padding-right: 30px;
-    padding-top: 10px;
+    padding-top: 0;
 }
 
 
@@ -483,19 +483,19 @@ article h2 {
 }
 
 
+/*--logo--*/
+.site-logo-div img {
+    height: 57px;
+    width: auto;
+    margin-top: 15px;
+    margin-left: 37px;
+    margin-bottom: 10px;
+}
 
 
 /*---------------------------------------mobil----------------------------------------*/
 @media (max-width: 376px) {
 
-    /*--logo--*/
-    .site-logo-div img {
-        height: 60px;
-        width: auto;
-        margin-top: 18px;
-        margin-left: 37px;
-        margin-bottom: 10px;
-    }
 
     /*----nav----*/
     #filtrering {
@@ -791,7 +791,7 @@ article h2 {
     .site-logo-div img {
         height: 100px;
         width: auto;
-        margin-top: 25px;
+        margin-top: 10px;
         margin-left: 86px;
         margin-bottom: 10px;
     }
