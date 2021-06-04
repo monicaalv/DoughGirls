@@ -173,6 +173,12 @@ textarea {
 
 }
 
+#filtrering .filter:active {
+    color: #D57A72;
+    text-decoration: underline;
+
+}
+
 
 /*.margin-right: 50px .valgt {
     float: none;
@@ -220,7 +226,8 @@ textarea {
 
 /*--tilbageknap--*/
 .infoknap,
-.tilbageknap {
+.tilbageknap,
+.bestil {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -246,6 +253,17 @@ textarea {
     /*border: none;*/
     box-shadow: none;
 }
+
+/*--bestil online knap--*/
+
+.content-area_single .bestil:hover {
+    color: #D57A72;
+    border: 1.5px solid #4b6e4d;
+    /*border: none;*/
+    box-shadow: none;
+}
+
+
 
 /*--læs mere knap--*/
 
@@ -776,6 +794,11 @@ article h2 {
         padding-right: 0;
     }
 
+
+    /*   --bestil online knap--*/
+    .content-area_single .bestil {
+        margin-top: 401px;
+    }
 }
 
 /*--------------------------------------Ipad media-----------------------*/
