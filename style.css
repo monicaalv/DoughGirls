@@ -245,9 +245,6 @@ textarea {
 
 }
 
-.centering_buttons {
-    text-align: center;
-}
 
 .content-area_single .tilbageknap:hover {
     color: #D57A72;
@@ -265,7 +262,9 @@ textarea {
     box-shadow: none;
 }
 
-
+.centering_buttons {
+    text-align: center;
+}
 
 /*--læs mere knap--*/
 
@@ -795,6 +794,14 @@ article h2 {
         width: 100%;
 
     }
+
+    /* --knapper--*/
+
+    .centering_buttons {
+        margin-top: -342px;
+        margin-left: 62px;
+    }
+
 
     /*---forside--*/
 
