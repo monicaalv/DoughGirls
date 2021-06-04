@@ -141,7 +141,7 @@ button,
 input,
 select,
 textarea {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 1.1rem;
 
 }
@@ -187,7 +187,7 @@ button,
 input,
 select,
 textarea {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 14px;
     font-size: 1.1rem;
     line-height: 1.2;
@@ -212,7 +212,7 @@ textarea {
     font-size: 0.9rem;
     padding-left: 11px;
     padding-right: 11px;
-    /* padding-top: 4px;*/
+     padding-top: 4px;
     padding-bottom: 4px;
     background-color: #4b6e4d;
     color: #fcf8f2;
@@ -265,6 +265,7 @@ textarea {
 
 h1 {
     font-family: 'Kalam', cursive;
+    font-size: 50px;
 }
 
 h2,
@@ -290,7 +291,8 @@ p {
     text-align: center;
     margin-top: 30px;
     margin-bottom: -1.5rem;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 50px;
 }
 
 /*--styling doughnuts filtrering--*/
@@ -788,7 +790,6 @@ article h2 {
     #filtrering {
 
         margin-left: auto;
-        font-size: 1rem;
         font-size: 0.95rem;
         position: relative;
 
@@ -879,7 +880,7 @@ article h2 {
 
     #overskrift {
         margin-bottom: 30px;
-        font-size: 2.8rem;
+        font-size: 50px;
     }
 
     /*   --------OM OS--------------------*/
