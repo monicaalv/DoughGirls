@@ -766,8 +766,6 @@ article h2 {
 
 
 
-
-
     /*--logo--*/
 
     .site-logo-div img {
@@ -877,9 +875,6 @@ article h2 {
         padding-left: 0px;
 
     }
-
-
-
 
 
     #overskrift {
@@ -1085,7 +1080,7 @@ article h2 {
     .elementor ::before {
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
-         margin-bottom: 79px;
+
     }
 
     .has-text-align-center {
@@ -1106,41 +1101,41 @@ article h2 {
     /*  ------CAFE------------------- */
 
 
-.entry-content h1 {
-    margin-left: 100px;
-}
+    .entry-content h1 {
+        margin-left: 100px;
+    }
 
-.entry-content h2 {
-    margin-left: 100px;
-    padding-left: 20px;
-}
+    .entry-content h2 {
+        margin-left: 100px;
+        padding-left: 20px;
+    }
 
-.entry-content h3 {
-    margin-left: 100px;
-}
+    .entry-content h3 {
+        margin-left: 100px;
+    }
 
-.entry-content p {
+    .entry-content p {
 
-    margin: 20px;
-    margin-left: 100px;
-}
+        margin: 20px;
+        margin-left: 100px;
+    }
 
-.wp-block-column .cafe2 {
-    margin-left: 100px;
+    .wp-block-column .cafe2 {
+        margin-left: 100px;
 
-}
+    }
 
-.kaffeKop,
-    {
-    width: 50%;
-}
+    .kaffeKop,
+        {
+        width: 50%;
+    }
 
-.piskeRis {
-    width: 40%;
-    margin-left: 508px;
-    margin-top: 0px;
-    margin-bottom: 256px;
-}
+    .piskeRis {
+        width: 40%;
+        margin-left: 508px;
+        margin-top: 0px;
+        margin-bottom: 256px;
+    }
 
 
 
