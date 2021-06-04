@@ -12,9 +12,6 @@ Description: Stylish Child Theme Based on One Press
 
 /*---video---*/
 #myVideo {
-    /*    width: 100%;
-      height: auto;*/
-    /* margin-left: -220px;*/
     width: 100%;
     height: 100vh;
     object-fit: cover;
@@ -53,15 +50,6 @@ Description: Stylish Child Theme Based on One Press
 /*--nav valgt--*/
 
 
-
-/*.onepress-menu .active > a {
-    color: #d9967d;
-}*/
-
-/*
-#menu-item-22:active {
-    color: #d9967d;
-}*/
 
 .onepress-menu a:active {
     color: #d9967d;
@@ -156,7 +144,7 @@ select,
 textarea {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.1rem;
-    /*line-height: 1.7;*/
+
 }
 
 
@@ -178,19 +166,6 @@ textarea {
     text-decoration: underline;
 
 }
-
-
-/*.margin-right: 50px .valgt {
-    float: none;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    margin-top: 20px;
-}*/
-
 
 
 
@@ -228,7 +203,7 @@ textarea {
 .infoknap,
 .tilbageknap,
 .bestil {
-    /*left: 50%;*/
+
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -1171,7 +1146,7 @@ article h2 {
 
 
 
-    /* .infoknap {}*/
+
 
     /*------------Om Os--------------*/
 
@@ -1281,7 +1256,7 @@ article h2 {
         margin-left: 120px;
         margin-right: 120px;
         text-align: left;
-        margin-top: -3px;
+        margin-top: 15px;
         overflow: hidden;
     }
 
