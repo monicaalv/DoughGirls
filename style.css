@@ -497,9 +497,6 @@ article h2 {
 }
 
 
-/*---------------------------------------mobil----------------------------------------*/
-/*@media (max-width: 376px) {*/
-
 
 /*----nav----*/
 #filtrering {
@@ -683,78 +680,6 @@ textarea {
     padding: 0;
 }
 
-/*----------------------------ikke funktionell--*/
-/*   ---om os ikoner---
-    */
-/*
-    .wp-block-image img {
-        max-width: 100%;
-        width: 50%;
-        margin-top: 10px;
-    }*/
-
-
-/*   .wp-block-column .fam_ikon img {
-       max-width: 100%;
-       width: 70%;
-
-   }
-
-   .hvede2 {
-       display: none;
-   }
-
-   .hvede {
-       margin-top: 25px;
-
-   }*/
-
-
-/* .wp-block-column .size-large img {
-     max-width: 100%;
-     width: 97%;
-     margin-top: 0;
- }*/
-
-
-/*  .hvede .aligncenter img {
-      max-width: 100%;
-      width: 50%;
-  }*/
-
-/* .wp-block-column .pose_ikon img {
-     display: none;
- }*/
-
-/*
-    .wp-block-column .size-large img {
-        margin-top: -37px;
-    }
-
-    .wp-block-column .hvede3 img {
-        max-width: 100%;
-        width: 25%;
-        padding-top: 37px;
-        margin-bottom: 5px;
-    }*/
-
-/*   ----vores cafe--------*/
-
-/*
-    .wp-block-column .is-resized img {
-        margin-top: 15px;
-    }
-
-    .wp-block-column .kaffeKop img {
-        display: none;
-    }
-
-    .wp-block-column .piskeRis img {
-        max-width: 100%;
-        width: 50%;
-    }*/
-
-/*----------------------------ikke funktionell SLUT--*/
 
 
 
@@ -1107,70 +1032,6 @@ textarea {
     }
 
 
-    /*----------------------------ikke funktionell--*/
-
-    /*   .wp-block-column .size-large img {
-        margin-top: 75px;
-        margin-top: 57px;
-
-    }*/
-
-
-
-    /*    .fam_ikon img {
-        margin-left: 120px;
-        max-width: 100%;
-        width: 20%;
-        margin-top: -53px;
-    }
-
-    .pose_ikon img {
-        margin-left: 122px;
-        margin-top: 59px
-    }*/
-
-    /*  .wp-image-245 {
-      margin-top: 0;
-  }
-
-  .hvede3 img {
-      margin-left: 58px;
-  }*/
-
-
-    /*    ---vores cafe----*/
-
-
-
-    /*   .wp-block-column .cafe1 {
-       padding-right: 20px;
-       padding-top: 23px;
-   }*/
-
-    /*   .kaffeKop img {
-       margin-left: 119px;
-       margin-top: 54px;
-       max-width: 100%;
-       width: 41%;
-       padding-top: 23px;
-   }
-
-   .piskeRis img {
-       max-width: 100%;
-       width: 21%;
-       margin-top: -124px;
-       margin-left: 123px;
-   }*/
-
-
-
-
-    /*.wp-block-columns .cafe2 {
-    padding-top: 78px;
-    padding-left: 20PX;
-}*/
-
-    /*----------------------------ikke funktionell SLUT--*/
 
     .wp-block-columns {
         margin-top: -67px;
@@ -1222,15 +1083,6 @@ textarea {
     }
 
 
-
-
-
-    /* .fak .wp-block-image img {
-     padding-top: 63px;
-     width: 80%;
- }*/
-
-    /*----------------------------ikke funktionell--*/
 
 
     /*--JOB--*/
@@ -1439,26 +1291,6 @@ padding-left: 20px;*/
     }
 
 
-
-    /*----------------------------ikke funktionell--*/
-    /*   .wp-block-column .cafe2 {
-       margin-left: 100px;
-
-   }*/
-    /*.kaffeKop,
-    {
-    width: 50%;
-}
-
-.piskeRis {
-    width: 40%;
-    margin-left: 508px;
-    margin-top: 0px;
-    margin-bottom: 256px;
-}*/
-
-
-    /*----------------------------ikke funktionell SLUT--*/
 
     /*---footer--*/
 
