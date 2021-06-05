@@ -309,7 +309,7 @@ p {
     margin-top: 30px;
     margin-bottom: -1.5rem;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 /*--styling doughnuts filtrering--*/
@@ -641,13 +641,6 @@ article h2 {
     }
 
     /*   ---------------------- OM OS--------------------------------------*/
-    /*   ---om os ikoner---
-    */
-    .wp-block-image img {
-        max-width: 100%;
-        width: 50%;
-        margin-top: 10px;
-    }
 
     /* --- wp padding---*/
 
@@ -661,20 +654,6 @@ article h2 {
     }
 
 
-    .wp-block-column .fam_ikon img {
-        max-width: 100%;
-        width: 70%;
-
-    }
-
-    .hvede2 {
-        display: none;
-    }
-
-    .hvede {
-        margin-top: 25px;
-
-    }
 
     .has-medium-font-size p {
         padding-top: 0;
@@ -694,25 +673,54 @@ article h2 {
         margin-bottom: 0;
     }
 
-    .wp-block-column .size-large img {
-        max-width: 100%;
-        width: 97%;
-        margin-top: 0;
-    }
-
     .wp-block-spacer {
         padding: 0;
     }
 
-    .hvede .aligncenter img {
+    /*----------------------------ikke funktionell--*/
+    /*   ---om os ikoner---
+    */
+    /*
+    .wp-block-image img {
         max-width: 100%;
         width: 50%;
-    }
+        margin-top: 10px;
+    }*/
 
-    .wp-block-column .pose_ikon img {
-        display: none;
-    }
 
+    /*   .wp-block-column .fam_ikon img {
+       max-width: 100%;
+       width: 70%;
+
+   }
+
+   .hvede2 {
+       display: none;
+   }
+
+   .hvede {
+       margin-top: 25px;
+
+   }*/
+
+
+    /* .wp-block-column .size-large img {
+     max-width: 100%;
+     width: 97%;
+     margin-top: 0;
+ }*/
+
+
+    /*  .hvede .aligncenter img {
+      max-width: 100%;
+      width: 50%;
+  }*/
+
+    /* .wp-block-column .pose_ikon img {
+     display: none;
+ }*/
+
+    /*
     .wp-block-column .size-large img {
         margin-top: -37px;
     }
@@ -722,10 +730,11 @@ article h2 {
         width: 25%;
         padding-top: 37px;
         margin-bottom: 5px;
-    }
+    }*/
 
     /*   ----vores cafe--------*/
 
+    /*
     .wp-block-column .is-resized img {
         margin-top: 15px;
     }
@@ -737,7 +746,10 @@ article h2 {
     .wp-block-column .piskeRis img {
         max-width: 100%;
         width: 50%;
-    }
+    }*/
+
+    /*----------------------------ikke funktionell SLUT--*/
+
 
 
     /*--------------singleview---------*/
@@ -939,20 +951,21 @@ article h2 {
 
     }
 
-
-
-    .wp-block-column .size-large img {
-        margin-top: 75px;
-        margin-top: 57px;
-
-    }
-
-
     .entry-content .has-text-align-center p {
         margin-bottom: 32px;
     }
 
-    .fam_ikon img {
+    /*----------------------------ikke funktionell--*/
+
+    /*   .wp-block-column .size-large img {
+        margin-top: 75px;
+        margin-top: 57px;
+
+    }*/
+
+
+
+    /*    .fam_ikon img {
         margin-left: 120px;
         max-width: 100%;
         width: 20%;
@@ -962,50 +975,52 @@ article h2 {
     .pose_ikon img {
         margin-left: 122px;
         margin-top: 59px
-    }
+    }*/
 
-    .wp-image-245 {
-        margin-top: 0;
-    }
+    /*  .wp-image-245 {
+      margin-top: 0;
+  }
 
-    .hvede3 img {
-        margin-left: 58px;
-    }
+  .hvede3 img {
+      margin-left: 58px;
+  }*/
 
 
     /*    ---vores cafe----*/
 
-    .wp-block-column .cafe1 {
-        padding-right: 20px;
-        padding-top: 23px;
-    }
+    /*   .wp-block-column .cafe1 {
+       padding-right: 20px;
+       padding-top: 23px;
+   }*/
 
-    .kaffeKop img {
-        margin-left: 119px;
-        margin-top: 54px;
-        max-width: 100%;
-        width: 41%;
-        padding-top: 23px;
-    }
+    /*   .kaffeKop img {
+       margin-left: 119px;
+       margin-top: 54px;
+       max-width: 100%;
+       width: 41%;
+       padding-top: 23px;
+   }
 
-    .piskeRis img {
-        max-width: 100%;
-        width: 21%;
-        margin-top: -124px;
-        margin-left: 123px;
-    }
+   .piskeRis img {
+       max-width: 100%;
+       width: 21%;
+       margin-top: -124px;
+       margin-left: 123px;
+   }*/
+
+
+
+
+    /*.wp-block-columns .cafe2 {
+    padding-top: 78px;
+    padding-left: 20PX;
+}*/
+
+    /*----------------------------ikke funktionell SLUT--*/
 
     .wp-block-columns {
         margin-top: -67px;
     }
-
-
-    .wp-block-columns .cafe2 {
-        padding-top: 78px;
-        padding-left: 20PX;
-    }
-
-
 
     .entry-content h1,
     h2 {
@@ -1038,14 +1053,13 @@ article h2 {
         margin-left: 70px;
     }
 
-
+    /*----------------------------ikke funktionell--*/
     /*---FAQ--*/
 
-    .fak .wp-block-image img {
-        padding-top: 63px;
-        width: 80%;
-    }
-
+    /* .fak .wp-block-image img {
+     padding-top: 63px;
+     width: 80%;
+ }*/
     /*--tekst i FAQ drop down--*/
 
 
@@ -1078,6 +1092,10 @@ article h2 {
 
     }
 
+    #overskrift {
+        margin-bottom: 30px;
+        font-size: 50px;
+    }
 
     /* --header--*/
     .site-header.header-fixed {
@@ -1169,25 +1187,25 @@ article h2 {
         margin-left: 100px;
     }
 
-    .wp-block-column .cafe2 {
-        margin-left: 100px;
+    /*----------------------------ikke funktionell--*/
+    /*   .wp-block-column .cafe2 {
+       margin-left: 100px;
 
-    }
+   }*/
+    /*.kaffeKop,
+    {
+    width: 50%;
+}
 
-    .kaffeKop,
-        {
-        width: 50%;
-    }
-
-    .piskeRis {
-        width: 40%;
-        margin-left: 508px;
-        margin-top: 0px;
-        margin-bottom: 256px;
-    }
-
+.piskeRis {
+    width: 40%;
+    margin-left: 508px;
+    margin-top: 0px;
+    margin-bottom: 256px;
+}*/
 
 
+    /*----------------------------ikke funktionell SLUT--*/
 
     /*---footer--*/
 
