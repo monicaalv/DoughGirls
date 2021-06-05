@@ -343,9 +343,15 @@ article h2 {
 }
 
 
+/*--slider--*/
 
+#post-28 > div > div > div > section.has_ma_el_bg_slider.elementor-section.elementor-top-section.elementor-element.elementor-element-54670bb.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.animated.fadeInUp > div > div > div > div.elementor-element.elementor-element-9f49a65.elementor-pagination-position-outside.elementor-widget.elementor-widget-image-carousel > div > div > div.elementor-image-carousel.swiper-wrapper > div.swiper-slide.swiper-slide-active > figure > img {
+    width: 100%;
+}
 
-
+#post-28 > div > div > div > section.has_ma_el_bg_slider.elementor-section.elementor-top-section.elementor-element.elementor-element-54670bb.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.animated.fadeInUp > div > div > div > div.elementor-element.elementor-element-9f49a65.elementor-pagination-position-outside.elementor-widget.elementor-widget-image-carousel > div > div > div.elementor-image-carousel.swiper-wrapper > div:nth-child(5) > figure > img {
+    width: 100%;
+}
 
 /*    ----singleview----*/
 
@@ -492,195 +498,195 @@ article h2 {
 
 
 /*---------------------------------------mobil----------------------------------------*/
-@media (max-width: 376px) {
+/*@media (max-width: 376px) {*/
 
 
-    /*----nav----*/
-    #filtrering {
-        width: 80%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 1.5vw;
-        text-align: center;
-        margin: auto;
-        margin-top: 60px;
-    }
-
-
-
-
-    /*    --rosa boks donut--*/
-    .donut article {
-        padding-bottom: 5px;
-    }
-
-
-    /*--første billedet i filtrering--*/
-    #doughnutcontainer article:nth-child(1) img {
-        margin-top: 60px;
-    }
-
-
-    .forside h1 {
-        padding-top: 10px;
-    }
-
-    /*---forside ikoner----*/
-    .elementor-28 .elementor-element.elementor-element-fb6a8c8 img {
-        height: auto;
-        border-radius: 0px 0px 0px 0px;
-        width: ;
-        width: 100px;
-        margin-top: 0;
-    }
-
-    .elementor-28 .elementor-element.elementor-element-bd71031 img {
-        width: 45%;
-        max-width: 36%;
-        height: 113px;
-        border-radius: 0px 0px 0px 0px;
-        margin-top: 77px;
-    }
-
-    .elementor-28 .elementor-element.elementor-element-8485aca img {
-        height: 113px;
-        width: 45%;
-        max-width: 36%;
-        margin-top: 77px;
-    }
-
-    /*---video---*/
-
-    #myVideo {
-        /* height: 100vh;*/
-        height: 50vh;
-    }
-
-
-
-    /*----produgt billeder---*/
-
-    img {
-        max-width: 80%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 65%;
-        margin-top: 114px;
-
-    }
-
-
-    h2 {
-        font-size: 1.5rem;
-        text-align: center;
-        margin-top: 1rem;
-
-    }
-
-    h1 {
-        margin-top: 15px;
-    }
-
-    .pris {
-        text-align: center;
-        margin-bottom: 1.5rem;
-    }
-
-    .info-container {
-        margin-bottom: 4rem;
-        position: relative;
-    }
-
-    /* ---knapper---*/
-
-    .infoknap {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-        margin-top: 5px;
-    }
-
-
-    body,
-    button,
-    input,
-    select,
-    textarea {
-        text-align: left;
-        font-size: 1.1rem;
-        /* border-spacing: 30px;*/
-
-    }
-
-    .textwidget {
-        margin-left: 43px;
-        margin-top: 15px;
-
-    }
+/*----nav----*/
+#filtrering {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+}
 
 
 
 
-    /*---footer--*/
+/*    --rosa boks donut--*/
+.donut article {
+    padding-bottom: 5px;
+}
 
 
-    #menu-footermenu {
-        margin-left: 43px;
-    }
+/*--første billedet i filtrering--*/
+#doughnutcontainer article:nth-child(1) img {
+    margin-top: 60px;
+}
 
 
-    #footer-widgets h2 {
+.forside h1 {
+    padding-top: 10px;
+}
 
-        text-align: left;
-        margin-left: 43px;
-    }
+/*---forside ikoner----*/
+.elementor-28 .elementor-element .elementor-element-fb6a8c8 img {
+    height: auto;
+    border-radius: 0px 0px 0px 0px;
+    width: ;
+    width: 100px;
+    margin-top: 0;
+}
 
-    /*   ---------------------- OM OS--------------------------------------*/
+.elementor-28 .elementor-element.elementor-element-bd71031 img {
+    width: 45%;
+    max-width: 36%;
+    height: 113px;
+    border-radius: 0px 0px 0px 0px;
+    margin-top: 77px;
+}
 
-    /* --- wp padding---*/
+.elementor-28 .elementor-element.elementor-element-8485aca img {
+    height: 113px;
+    width: 45%;
+    max-width: 36%;
+    margin-top: 77px;
+}
 
-    .entry-content > * {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 100%;
-        padding: 20px;
-        padding-top: 10px;
-        padding-bottom: 0;
-    }
+/*---video---*/
+
+#myVideo {
+    /* height: 100vh;*/
+    height: 50vh;
+}
 
 
 
-    .has-medium-font-size p {
-        padding-top: 0;
-        margin-bottom: 0;
-    }
+/*----produgt billeder---*/
 
-    .entry-content h2 {
-        font-size: 1.1rem;
-        padding-top: 0;
-        margin-top: 0;
-        padding-bottom: 20px;
-    }
+img {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    margin-top: 114px;
 
-    .entry-content h1 {
-        padding-bottom: 5px;
-        font-size: 2.7rem;
-        margin-bottom: 0;
-    }
+}
 
-    .wp-block-spacer {
-        padding: 0;
-    }
 
-    /*----------------------------ikke funktionell--*/
-    /*   ---om os ikoner---
+h2 {
+    font-size: 1.5rem;
+    /**/
+    margin-top: 1rem;
+
+}
+
+h1 {
+    margin-top: 15px;
+}
+
+.pris {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.info-container {
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+/* ---knapper---*/
+
+.infoknap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+body,
+button,
+input,
+select,
+textarea {
+    text-align: left;
+    font-size: 1.1rem;
+    /* border-spacing: 30px;*/
+
+}
+
+.textwidget {
+    margin-left: 43px;
+    margin-top: 15px;
+
+}
+
+
+
+
+/*---footer--*/
+
+
+#menu-footermenu {
+    margin-left: 43px;
+}
+
+
+#footer-widgets h2 {
+
+    text-align: left;
+    margin-left: 43px;
+}
+
+/*   ---------------------- OM OS--------------------------------------*/
+
+/* --- wp padding---*/
+
+.entry-content > * {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+
+
+.has-medium-font-size p {
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.entry-content h2 {
+    font-size: 1.1rem;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+
+.entry-content h1 {
+    padding-bottom: 5px;
+    font-size: 2.7rem;
+    margin-bottom: 0;
+}
+
+.wp-block-spacer {
+    padding: 0;
+}
+
+/*----------------------------ikke funktionell--*/
+/*   ---om os ikoner---
     */
-    /*
+/*
     .wp-block-image img {
         max-width: 100%;
         width: 50%;
@@ -688,7 +694,7 @@ article h2 {
     }*/
 
 
-    /*   .wp-block-column .fam_ikon img {
+/*   .wp-block-column .fam_ikon img {
        max-width: 100%;
        width: 70%;
 
@@ -704,23 +710,23 @@ article h2 {
    }*/
 
 
-    /* .wp-block-column .size-large img {
+/* .wp-block-column .size-large img {
      max-width: 100%;
      width: 97%;
      margin-top: 0;
  }*/
 
 
-    /*  .hvede .aligncenter img {
+/*  .hvede .aligncenter img {
       max-width: 100%;
       width: 50%;
   }*/
 
-    /* .wp-block-column .pose_ikon img {
+/* .wp-block-column .pose_ikon img {
      display: none;
  }*/
 
-    /*
+/*
     .wp-block-column .size-large img {
         margin-top: -37px;
     }
@@ -732,9 +738,9 @@ article h2 {
         margin-bottom: 5px;
     }*/
 
-    /*   ----vores cafe--------*/
+/*   ----vores cafe--------*/
 
-    /*
+/*
     .wp-block-column .is-resized img {
         margin-top: 15px;
     }
@@ -748,51 +754,60 @@ article h2 {
         width: 50%;
     }*/
 
-    /*----------------------------ikke funktionell SLUT--*/
+/*----------------------------ikke funktionell SLUT--*/
 
 
 
-    /*--------------singleview---------*/
+/*--------------singleview---------*/
 
-    .content-area_single article {
-        margin: 0;
-        border-radius: 0;
+.content-area_single article {
+    margin: 0;
+    border-radius: 0;
 
-    }
-
-    .content-area_single .pic {
-        margin-top: 10px;
-        max-width: 100%;
-        width: 100%;
-
-    }
-
-    /* --knapper--*/
-
-    .centering_buttons {
-        margin-top: -342px;
-        margin-left: 62px;
-    }
-
-
-    /*---forside--*/
-
-    /* .forside .elementor*/
-    #post-28 > div > div {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-
-    /*   --bestil online knap--*/
-    .content-area_single .bestil {
-        margin-top: 401px;
-    }
 }
+
+/*--donutnavn h2--*/
+.content-area_single .navn {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.content-area_single .pic {
+    margin-top: 10px;
+    max-width: 100%;
+    width: 100%;
+
+}
+
+/* --knapper--*/
+
+.centering_buttons {
+    margin-top: -342px;
+    margin-left: 62px;
+}
+
+
+/*---forside--*/
+
+/* .forside .elementor*/
+#post-28 > div > div {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/*   --bestil online knap--*/
+.content-area_single .bestil {
+    margin-top: 401px;
+}
+
+
+
+/*}*/
 
 /*--------------------------------------Ipad media-----------------------*/
 
-@media (min-width: 400px) {
+@media (min-width: 768px) {
 
 
 
@@ -829,13 +844,21 @@ article h2 {
     /*  ---nav--*/
 
     #filtrering {
-
+        display: flex;
         margin-left: auto;
-        font-size: 0.95rem;
+        /*font-size: 0.95rem;*/
         position: relative;
-
+        align-content: center;
+        margin-top: 40px;
     }
 
+    body,
+    button,
+    input,
+    select,
+    textarea {
+        font-size: 1rem;
+    }
 
     #doughnutcontainer {
         margin: auto;
@@ -848,13 +871,21 @@ article h2 {
 
     }
 
+    #doughnutcontainer article img {
+        margin-top: 0;
+    }
+
+    #doughnutcontainer article:nth-child(1) img {
+        margin-top: 0;
+    }
+
     article {
-        margin-top: 3.5rem;
+        margin-top: 2.9rem;
     }
 
 
 
-    h2,
+
     .pris {
         text-align: center;
 
@@ -862,7 +893,7 @@ article h2 {
 
     h2 {
         font-size: 1.1rem;
-        text-align: center;
+        /*text-align: left;*/
         margin-top: 0;
         margin-bottom: 20px;
     }
@@ -890,6 +921,36 @@ article h2 {
         column-gap: 0;
     }
 
+    /*--forside--*/
+
+    .forsideJa .elementor-column-gap-default > .elementor-column > .elementor-element-populated {
+        padding-left: 28px;
+    }
+
+    /* --ikoner--*/
+
+    .forsideJa .elementor-28 .elementor-element.elementor-element-26975eb img {
+        height: auto;
+    }
+
+    .forsideJa .elementor-28 .elementor-element.elementor-element-252f689 img {
+        max-width: 50%;
+        margin-top: 80px;
+    }
+
+    .forsideJa .elementor-element-1a87ecc > div:nth-child(1) > img:nth-child(1) {
+        margin-top: 90px;
+    }
+
+    /* --slider--*/
+
+    .elementor-image-carousel {
+        margin-top: -60px;
+    }
+
+    .elementor-image-carousel-wrapper {
+        margin-bottom: 10px;
+    }
 
     /*----footer---*/
     .sidebar .widget .widget-title {
@@ -900,6 +961,10 @@ article h2 {
         font-weight: 700;
         margin-left: -113px;
 
+    }
+
+    .textwidget {
+        margin-left: 0;
     }
 
     .footer-widgets {
@@ -955,6 +1020,93 @@ article h2 {
         margin-bottom: 32px;
     }
 
+
+    /*--underoverskrift--*/
+
+    .elementor-element-b81d2bb > div:nth-child(1) > h2:nth-child(1) {
+        margin-left: 46px;
+    }
+
+    .elementor-element-76b7925 > div:nth-child(1) > h2:nth-child(1) {
+        margin-left: 25px;
+    }
+
+    .elementor-element-ad89451 > div:nth-child(1) > h2:nth-child(1) {
+        margin-left: 22px;
+    }
+
+    .elementor-element-3613b91 > div:nth-child(1) > h2:nth-child(1) {
+        margin-left: 23px;
+    }
+
+    /*--billeder--*/
+
+    .elementor-element-8afc379 > div:nth-child(1) > img:nth-child(1) {
+        width: 90%;
+        margin-top: 56px;
+    }
+
+    .elementor-element-277ef54 > div:nth-child(1) > img:nth-child(1) {
+        height: auto;
+        width: 90%;
+        margin-top: 57px;
+    }
+
+    .elementor-element-24f6f1a > div:nth-child(1) > img:nth-child(1) {
+        height: auto;
+        width: 90%;
+        margin-top: 60px;
+    }
+
+    /* ------vores cafe--*/
+
+    .elementor-element-96f2ecf > div:nth-child(1) > h2:nth-child(1) {
+        margin-left: 40px;
+    }
+
+    .elementor-element-267b91e > div:nth-child(1) > h2:nth-child(1) {
+        margin-left: 22px;
+    }
+
+
+
+    /*
+--ikoner--*/
+
+    .elementor-element-e32c211 > div:nth-child(1) > img:nth-child(1) {
+        margin-top: 33px;
+    }
+
+    .elementor-element-431522e > div:nth-child(1) > img:nth-child(1) {
+        margin-top: 30px;
+    }
+
+    /*--rosa bagrund--*/
+
+    section.has_ma_el_bg_slider:nth-child(3) {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+
+    .elementor-10 .elementor-element.elementor-element-03e337c {
+        margin-bottom: 20px;
+    }
+
+    /* --billede--*/
+
+    #post-10 > div > div > div > section.has_ma_el_bg_slider.elementor-section.elementor-top-section.elementor-element.elementor-element-03e337c.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.has_ma_el_bg_slider.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-6be4c0c > div > div > div > img {
+        max-width: 100%;
+        width: 90%;
+        margin-top: 60px;
+    }
+
+
+    .elementor-element-adbf930 > div:nth-child(1) > img:nth-child(1) {
+        margin-top: 58px;
+    }
+
+
     /*----------------------------ikke funktionell--*/
 
     /*   .wp-block-column .size-large img {
@@ -987,6 +1139,8 @@ article h2 {
 
 
     /*    ---vores cafe----*/
+
+
 
     /*   .wp-block-column .cafe1 {
        padding-right: 20px;
@@ -1032,7 +1186,10 @@ article h2 {
 
 
     .content-area_single article {
+
+        margin: 150px;
         margin-top: 15px;
+        padding-bottom: 0px;
     }
 
 
@@ -1051,15 +1208,46 @@ article h2 {
     .centering_buttons {
         margin-top: 0;
         margin-left: 70px;
+        margin-top: -358px;
     }
 
-    /*----------------------------ikke funktionell--*/
-    /*---FAQ--*/
+    /*--billede--*/
+    .content-area_single .pic {
+        width: 80%;
+    }
+
+
+    .content-area_single .info-container {
+        margin-bottom: 10px;
+    }
+
+
+
+
 
     /* .fak .wp-block-image img {
      padding-top: 63px;
      width: 80%;
  }*/
+
+    /*----------------------------ikke funktionell--*/
+
+
+    /*--JOB--*/
+
+    h2.elementor-heading-title {
+        margin-left: 45px;
+    }
+
+    /* --billede--*/
+
+
+    #post-26 > div > div > div > section.has_ma_el_bg_slider.elementor-section.elementor-top-section.elementor-element.elementor-element-a7cd2e0.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.has_ma_el_bg_slider.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-7fb4deb > div > div > div > img {
+        width: 100%;
+        margin-top: 8px;
+    }
+
+    /*---FAQ--*/
     /*--tekst i FAQ drop down--*/
 
 
@@ -1074,10 +1262,12 @@ article h2 {
 
 
 
+
+
 /*----------------------------------descktop--------------------------------------------------*/
 /*---vores Doughnuts--*/
 
-@media (min-width: 800px) {
+@media (min-width: 950px) {
 
     /*--video--*/
 
@@ -1093,6 +1283,7 @@ article h2 {
     }
 
     #overskrift {
+        margin-top: 50px;
         margin-bottom: 30px;
         font-size: 50px;
     }
@@ -1137,6 +1328,22 @@ article h2 {
     }
 
 
+    /*--nav---*/
+
+    #filtrering button {
+
+        /* grid-gap: 0;*/
+        font-size: 1.2rem;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #filtrering {
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-bottom: -10px;
+    }
 
 
 
@@ -1163,7 +1370,25 @@ article h2 {
         margin-left: 37px;
     }
 
+    /*--underoverskrift--*/
 
+
+
+    .elementor-element-b81d2bb > div:nth-child(1) > h2:nth-child(1) {
+        margin-left: 106px;
+    }
+
+    .elementor-element-76b7925 > div:nth-child(1) > h2:nth-child(1) {
+        margin-left: 91px;
+    }
+
+    .elementor-element-ad89451 > div:nth-child(1) > h2:nth-child(1) {
+        margin-left: 99px;
+    }
+
+    .elementor-element-3613b91 > div:nth-child(1) > h2:nth-child(1) {
+        margin-left: 95px;
+    }
 
     /*  ------CAFE------------------- */
 
@@ -1173,8 +1398,8 @@ article h2 {
     }
 
     .entry-content h2 {
-        margin-left: 100px;
-        padding-left: 20px;
+        /*margin-left: 100px;
+padding-left: 20px;*/
     }
 
     .entry-content h3 {
@@ -1186,6 +1411,34 @@ article h2 {
         margin: 20px;
         margin-left: 100px;
     }
+
+
+    /* --vores cafe--*/
+
+    .elementor-element-96f2ecf > div:nth-child(1) > h2:nth-child(1) {
+        margin: 20px;
+        margin-left: 127px;
+    }
+
+    .elementor-element-267b91e > div:nth-child(1) > h2:nth-child(1) {
+        margin: 20px;
+        margin-left: 127px;
+    }
+
+    /*--billede--*/
+
+    .elementor-element-adbf930 > div:nth-child(1) > img:nth-child(1) {
+        margin-top: 58px;
+        width: 90%;
+    }
+
+    /*--rosa bagrund--*/
+
+    .elementor-10 .elementor-element.elementor-element-03e337c {
+        margin-bottom: 0;
+    }
+
+
 
     /*----------------------------ikke funktionell--*/
     /*   .wp-block-column .cafe2 {
@@ -1237,7 +1490,10 @@ article h2 {
 
     /*---singleview---*/
 
+    .content-area_single .navn {
 
+        font-size: 1.6rem;
+    }
 
     .content-area_single article {
         display: flex;
@@ -1246,7 +1502,7 @@ article h2 {
         margin-left: 120px;
         margin-right: 120px;
         text-align: left;
-        margin-top: 15px;
+        margin-top: 10px;
         overflow: hidden;
     }
 
@@ -1265,10 +1521,14 @@ article h2 {
 
     .content-area_single .pic {
         max-width: 100%;
-        width: 90%;
+        width: 80%;
         padding-top: 23px;
         margin: 10px;
 
+    }
+
+    #main article .left img {
+        margin-top: 10px;
     }
 
     /*--knapper--*/
@@ -1276,9 +1536,16 @@ article h2 {
     .centering_buttons {
         margin-top: 0;
         margin-left: 70px;
+        margin-top: -331px;
     }
 
+    .content-area_single .info-container {
+        margin-bottom: 0;
+    }
 
+    .content-area_single .bestil {
+        margin-top: 360px;
+    }
 
     /* ---FAQ dropdown--*/
 
