@@ -187,8 +187,6 @@ textarea {
 
 
 
-
-
 .valgt {
     color: #d9967d;
     text-decoration: underline;
@@ -217,7 +215,7 @@ textarea {
 
 
 
-/*--tilbageknap--*/
+/*--knapper styling--*/
 .infoknap,
 .tilbageknap,
 .bestil {
@@ -355,7 +353,7 @@ article h2 {
     margin: 60px;
     padding: 30px;
     border-radius: 5px;
-    background-color: #d9967d;
+    background-color: #D9967D7A;
     margin-left: 120px;
     margin-right: 120px;
 
