@@ -345,48 +345,12 @@ article h2 {
 
 /*--slider--*/
 
-#post-28 > div > div > div > section.has_ma_el_bg_slider.elementor-section.elementor-top-section.elementor-element.elementor-element-54670bb.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.animated.fadeInUp > div > div > div > div.elementor-element.elementor-element-9f49a65.elementor-pagination-position-outside.elementor-widget.elementor-widget-image-carousel > div > div > div.elementor-image-carousel.swiper-wrapper > div.swiper-slide.swiper-slide-active > figure > img {
-    width: 100%;
+
+
+.elementor-widget-container img {
+    width: 95%;
 }
 
-#post-28 > div > div > div > section.has_ma_el_bg_slider.elementor-section.elementor-top-section.elementor-element.elementor-element-54670bb.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.animated.fadeInUp > div > div > div > div.elementor-element.elementor-element-9f49a65.elementor-pagination-position-outside.elementor-widget.elementor-widget-image-carousel > div > div > div.elementor-image-carousel.swiper-wrapper > div:nth-child(5) > figure > img {
-    width: 100%;
-}
-
-/*    ----singleview----*/
-
-.content-area_single article {
-    margin: 60px;
-    padding: 30px;
-    border-radius: 5px;
-    background-color: #D9967D7A;
-    margin-left: 120px;
-    margin-right: 120px;
-
-}
-
-.content-area_single article h2 {
-    margin-top: 38px;
-
-}
-
-
-.content-area_single article h3 {
-    margin-top: 35px;
-    font-size: 1.2rem;
-}
-
-.content-area_single article .left {
-    display: grid;
-}
-
-.content-area_single article img {
-    width: 60%;
-    max-width: 100%;
-    align-content: center;
-    margin-right: auto;
-    margin-left: auto;
-}
 
 
 /*--footer---*/
@@ -704,6 +668,41 @@ textarea {
 
 }
 
+.content-area_single article {
+    margin: 60px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #D9967D7A;
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+
+.content-area_single article h2 {
+    margin-top: 38px;
+
+}
+
+
+.content-area_single article h3 {
+    margin-top: 35px;
+    font-size: 1.2rem;
+}
+
+.content-area_single article .left {
+    display: grid;
+}
+
+.content-area_single article img {
+    width: 60%;
+    max-width: 100%;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
 /* --knapper--*/
 
 .centering_buttons {
@@ -728,9 +727,9 @@ textarea {
 
 
 
-/*}*/
 
-/*--------------------------------------Ipad media-----------------------*/
+
+/*--------------------------------------Ipad media-------------------------------------------*/
 
 @media (min-width: 768px) {
 
@@ -1116,8 +1115,9 @@ textarea {
 
 
 
-/*----------------------------------descktop--------------------------------------------------*/
-/*---vores Doughnuts--*/
+/*------------------------------------------descktop--------------------------------------------------*/
+
+
 
 @media (min-width: 950px) {
 
