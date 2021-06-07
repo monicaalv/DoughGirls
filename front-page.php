@@ -24,9 +24,11 @@ do_action( 'onepress_page_before_content' );
 
                 <!-- spalsh video -->
                 <div class="containerVideo">
-                    <video autoplay muted loop id="myVideo">
-                        <source src="splash_video_export1080.mp4" type="video/mp4">
-                    </video>
+                         <video autoplay muted loop id="myVideo">
+                             <source src="splash_video_export1080.mp4" type="video/mp4">
+                         </video>
+                   <!-- <iframe autoplay muted loop id="myVideo" src="https://www.youtube.com/watch?v=a7KYzYqLR1I">
+                    </iframe>-->
                 </div>
 
 
