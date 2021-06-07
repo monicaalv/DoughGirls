@@ -61,6 +61,8 @@ a:active,
     background-color: #d9967d;
 }
 
+a:active,
+menu-item {}
 
 /*---wp padding----*/
 
@@ -801,7 +803,7 @@ h2.elementor-heading-title {
     input,
     select,
     textarea {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     #doughnutcontainer {
