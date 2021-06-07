@@ -1326,9 +1326,12 @@ h2.elementor-heading-title {
 
     .elementor-10 .elementor-element.elementor-element-03e337c {
         margin-bottom: 0;
+        padding-top: 40px;
     }
 
-
+    section.has_ma_el_bg_slider:nth-child(3) {
+        padding-top: 40px;
+    }
 
     /*---footer--*/
 
