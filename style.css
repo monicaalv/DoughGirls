@@ -56,9 +56,12 @@ Description: Stylish Child Theme Based on One Press
 
 /*--nav valgt--*/
 
-a:active {
+a:active,
+.current-menu-item {
     background-color: #d9967d;
 }
+
+
 
 /*#menu-item-1459 > .active a {
     color: #d9967d;
@@ -265,8 +268,6 @@ textarea {
     box-shadow: none;
     border: 1.5px solid #4b6e4d;
 }
-
-
 
 
 
@@ -496,7 +497,7 @@ article h2 {
 .elementor-28 .elementor-element .elementor-element-fb6a8c8 img {
     height: auto;
     border-radius: 0px 0px 0px 0px;
-    width: ;
+    width: 42%;
     width: 100px;
     margin-top: 0;
 }
@@ -523,7 +524,9 @@ article h2 {
     height: 50vh;
 }
 
-
+/*.containerOmVideo {
+    width: 100%
+}*/
 
 /*----produgt billeder---*/
 
@@ -645,9 +648,26 @@ textarea {
 }
 
 
+.elementor-element-e33b439 > div:nth-child(1) > h2:nth-child(1) {
+    margin-left: 0;
+}
+
+/*--billeder--*/
 
 
-/*--------------singleview---------*/
+.elementor-element-277ef54 > div:nth-child(1) > img:nth-child(1) {
+    height: auto;
+}
+
+.elementor-element-24f6f1a > div:nth-child(1) > img:nth-child(1) {
+    height: auto;
+}
+
+.elementor-element-8afc379 > div:nth-child(1) > img:nth-child(1) {
+    height: auto;
+}
+
+/*--------------singleview--------------*/
 
 .content-area_single article {
     margin: 0;
@@ -725,7 +745,11 @@ textarea {
     margin-top: 401px;
 }
 
+/*--vores cafe--*/
 
+h2.elementor-heading-title {
+    margin-left: 55px;
+}
 
 
 
@@ -950,6 +974,7 @@ textarea {
         margin-left: 46px;
     }
 
+
     .elementor-element-76b7925 > div:nth-child(1) > h2:nth-child(1) {
         margin-left: 25px;
     }
@@ -966,25 +991,25 @@ textarea {
 
     .elementor-element-8afc379 > div:nth-child(1) > img:nth-child(1) {
         width: 90%;
-        margin-top: 56px;
+        margin-top: 110px;
     }
 
     .elementor-element-277ef54 > div:nth-child(1) > img:nth-child(1) {
         height: auto;
         width: 90%;
-        margin-top: 57px;
+        margin-top: 112px;
     }
 
     .elementor-element-24f6f1a > div:nth-child(1) > img:nth-child(1) {
         height: auto;
         width: 90%;
-        margin-top: 60px;
+        margin-top: 110px;
     }
 
     /* ------vores cafe--*/
 
     .elementor-element-96f2ecf > div:nth-child(1) > h2:nth-child(1) {
-        margin-left: 40px;
+        margin-left: 12px;
     }
 
     .elementor-element-267b91e > div:nth-child(1) > h2:nth-child(1) {
@@ -1085,8 +1110,14 @@ textarea {
 
     /*--JOB--*/
 
-    h2.elementor-heading-title {
-        margin-left: 45px;
+
+
+    #post-10 > div > div > div > section.has_ma_el_bg_slider.elementor-section.elementor-top-section.elementor-element.elementor-element-f0be1e6.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div.elementor-element.elementor-element-96f2ecf.elementor-widget.elementor-widget-heading > div > h2 {
+        margin-left: 0;
+    }
+
+    #post-26 > div > div > div > section.has_ma_el_bg_slider.elementor-section.elementor-top-section.elementor-element.elementor-element-5847baf.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div.elementor-element.elementor-element-d538f03.elementor-widget.elementor-widget-heading > div {
+        margin-left: -61px;
     }
 
     /* --billede--*/
@@ -1094,7 +1125,11 @@ textarea {
 
     #post-26 > div > div > div > section.has_ma_el_bg_slider.elementor-section.elementor-top-section.elementor-element.elementor-element-a7cd2e0.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.has_ma_el_bg_slider.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-7fb4deb > div > div > div > img {
         width: 100%;
-        margin-top: 8px;
+        margin-top: 114px;
+    }
+
+    .attachment-large {
+        height: auto;
     }
 
     /*---FAQ--*/
@@ -1195,7 +1230,13 @@ textarea {
         margin-bottom: -10px;
     }
 
+    /*
+---job---*/
 
+
+    #post-26 > div > div > div > section.has_ma_el_bg_slider.elementor-section.elementor-top-section.elementor-element.elementor-element-5847baf.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div.elementor-element.elementor-element-d538f03.elementor-widget.elementor-widget-heading > div {
+        margin-left: -51px;
+    }
 
     /*------------Om Os--------------*/
 
@@ -1225,7 +1266,7 @@ textarea {
 
 
     .elementor-element-b81d2bb > div:nth-child(1) > h2:nth-child(1) {
-        margin-left: 106px;
+        margin-left: 48px;
     }
 
     .elementor-element-76b7925 > div:nth-child(1) > h2:nth-child(1) {
@@ -1238,6 +1279,10 @@ textarea {
 
     .elementor-element-3613b91 > div:nth-child(1) > h2:nth-child(1) {
         margin-left: 95px;
+    }
+
+    .elementor-element-e33b439 > div:nth-child(1) > h2:nth-child(1) {
+        margin-left: 100px;
     }
 
     /*  ------CAFE------------------- */
