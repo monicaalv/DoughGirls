@@ -104,12 +104,15 @@ menu-item {}
 }
 
 
-/*---rosa bagrundsfarve--*/
+/*---rosa baggrundsfarve--*/
 #post-28 > div > div > div > section.has_ma_el_bg_slider.elementor-section.elementor-top-section.elementor-element.elementor-element-54670bb.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div {
     padding-bottom: 48px;
 }
+/*--baggrundsfarve rosa forside--*/
+.elementor-28 .elementor-element.elementor-element-cac588f {
+    margin-top: -57px;
 
-
+}
 
 /*//baggrundsfarve//*/
 .blog .site-content,
