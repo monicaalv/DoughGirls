@@ -62,17 +62,6 @@ a:active,
 }
 
 
-
-/*#menu-item-1459 > .active a {
-    color: #d9967d;
-}*/
-
-/*
-.onepress-menu a:active {
-    color: #d9967d;
-}*/
-
-
 /*---wp padding----*/
 
 .container {
@@ -302,6 +291,13 @@ p {
 
 
 
+--h3-- .elementor-1458 .elementor-element.elementor-element-adddf64 .elementor-heading-title {
+    color: #000000;
+    font-family: "Noto Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
 
 /*---overskrift---*/
 
@@ -759,7 +755,6 @@ h2.elementor-heading-title {
 @media (min-width: 768px) {
 
 
-
     /*--logo--*/
 
     .site-logo-div img {
@@ -1142,6 +1137,10 @@ h2.elementor-heading-title {
     }
 
 
+    /*   #post-1458 > div > div > div > section.has_ma_el_bg_slider.elementor-section.elementor-top-section.elementor-element.elementor-element-4eeab4e.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.animated.fadeInUp {
+       padding-bottom: -10px;
+   }*/
+
 }
 
 
@@ -1332,6 +1331,15 @@ h2.elementor-heading-title {
 
     section.has_ma_el_bg_slider:nth-child(3) {
         padding-top: 40px;
+    }
+
+    /* --rosa baggrund faq--*/
+
+    .elementor-1458 .elementor-element.elementor-element-4eeab4e {
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+
+        margin-bottom: -31px;
+
     }
 
     /*---footer--*/
